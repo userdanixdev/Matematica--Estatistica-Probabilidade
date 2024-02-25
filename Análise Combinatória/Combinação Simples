@@ -1,0 +1,15 @@
+COMBINAÇÃO SIMPLES:
+  - Combinação Simples é um tipo de agrupamento com os elementos de um conjunto que se diferenciam apenas pelas sua natureza
+  - Fórmula:
+            - C(n,p) = n!/P!.(n-P)!
+Quantas comissões de 3 participantes podem ser formadas com 5 pessoas?
+  ABCDE - Pessoas
+  Por combinação a ORDEM NÃO IMPORTA, sendo assim:
+    - - C(n,p) = n!/P!.(n-P)!
+      
+    - C(n,p) = n!/P!.(n-P)!
+    - C₅,₃ = 5!/3!.(5-3)!
+      C₅,₃ = 5.4.3 / 3! 2!
+      C₅,₃ = 5.4 / 2!
+      C₅,₃ = 20/2 = 10 comissões se tiver 5 pessoas com 3 participantes.
+-------------------------//----------------------------------//----------------------------//----------------------------
