@@ -56,7 +56,28 @@ C) Pelo menos uma coroa?
       P = 7/8 = 0,875 = 87,5%
 ---------------//--------------------------//------------------------//--------------------
 BARALHO:
-  
+  Em um baralho de 52 cartas, qual a probabilidade de retirar:
+  O baralho tem 26 cartas pretas e 26 cartas vermelhas:
+      - ** Obs: Cada NAIPE possui um conjunto de 13 cartas de 4 naipes ** - 
+    a) Uma carta de copas:
+        - P = 13/52 = 1/4 = 0,25 = 25%
+    b) Qual a probabilidade de sair cartas pretas?
+        - 13 + 13 = As pretas
+        - P = 26/52 = 1/2 = 0,5 = 50%
+    c) Sair uma carta com figura: ( VaLETE, dama , REI = 3 X 4 = 12  ):
+          No baralho tem um total de 12 cartas com figuras, de todos os naipes:
+        - P = 12/52 = 6/26 = 3/13 = 0,23 = 23%
+    d) Sair uma carta de As:
+        - P = 4 cartas de As / 52 :
+        - P = 4/52 = 1/13 = 0,77 = 7,7%
+    e) Sair um Rei de OUROS:
+            ** Obs: Só tem um rei de ouro **
+        - P = 1/52 = 0,019 = 1,9% de sair essa carta.
+
+
+
+
+
 
 
 
