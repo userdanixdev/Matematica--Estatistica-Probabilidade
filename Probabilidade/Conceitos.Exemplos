@@ -82,7 +82,14 @@ LANÇAMENTO DE DADOS:
       b) Um número par:
               nU = {2,4,6} = Total 3
               P = 3/6 = 1/2 - 0,5 = 50% 
-      c) 
+      c) Número Ímpar:
+              nU = {1,3,5} = Total 3
+              P=nE/nU = 3/6 = 1/2 = 0,5 = 50%
+      d) Um número maior que 4, <4:
+              nU = {5,6} = 2 
+              nE = 6
+              P = 2/6 = 0,33 = 33%
+              
     
 
 
