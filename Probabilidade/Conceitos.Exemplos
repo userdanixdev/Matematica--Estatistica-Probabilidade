@@ -45,7 +45,34 @@ d) Uma cara e uma coroa nessa ordem:
     P = nE/nU = 1/4 = 25% na ordem
 --------------------//------------------------//---------------------//--------------------//
 LANÇAMENTO DE 3 MOEDAS:
+  - {CCC;CKK;KKC;KCK;CCK;KCC;CKC;KKK} = 8 POSSIBILIDADES TOTAIS
+A) Três caras?
+  P=1/8=0,125 = 12,5%
+B) Duas caras e uma coroa, nessa ordem:
+  - {CCC;CKK;KKC;KCK;CCK;KCC;CKC;KKK} = 8 POSSIBILIDADES TOTAIS
+      P=3/8 = 0,375 = 37,5%
+C) Pelo menos uma coroa?
+    -{CCC;CKK;KKC;KCK;CCK;KCC;CKC;KKK} = 8 POSSIBILIDADES TOTAIS
+      P = 7/8 = 0,875 = 87,5%
+---------------//--------------------------//------------------------//--------------------
+BARALHO:
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
