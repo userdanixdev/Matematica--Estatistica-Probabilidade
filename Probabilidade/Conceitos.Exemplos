@@ -1,0 +1,20 @@
+PROBABILIDADE:
+  - A teoria da probabilidade surgiu para tentar medir a 'chance' de ocorrer um determinado resultado num experimento aleatório.
+      P(A)=n(a) <- Evento ( Resultados Favoráveis )
+           n(U) <- Espaço Amostral ( Resultados Totais Possíveis )
+Exemplo:
+  - Qual a probabilidade de lançarmos uma moeda e obtermos cara?
+        Resposta:   nE = {C} = 1   ** A moeda só tem uma CARA **
+                    nU = {C,K} = 2 ** A moeda tem 2 resultados possíveis **
+                    P(e)=1/2 = 0,5 = 50%
+-------------------//------------------------------//----------------------------//
+Exemplo 02: 
+  = Qual a probabilidade de lançarmos um dado não viciado e obtermos um 4?
+      Resposta: O dado tem 6 lados = 1,2,3,4,5,6
+        nE = {4} = 1
+        nU = {1,2,3,4,5,6} = 6 total
+      P(4)= 1/6 = 0,16 = 16%
+-------------------//------------------------------//----------------------------//
+
+
+                    
