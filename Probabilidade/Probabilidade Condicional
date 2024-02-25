@@ -1,0 +1,24 @@
+PROBABILIDADE CONDICIONAL:
+    - A PROBABILIDADE DE OCORRER UM EVENTO 'A' SABENDO-SE QUE JÁ OCORREU O EVENTO 'B' É:
+                            P(A/B) = P(A∩B)/P(B)
+exemplo:
+  - Uma URNA contêm 15 bolas numeradas de 1 a 15. 
+Retira-se uma bola ao acaso e vê-se que o número é maior que 6.
+Qual a probabilidade desse número ser múltiplo de 3?
+a) Uso da fórmula:
+                      P(A/B) = P(A∩B)/P(B)
+        n(s)=15
+        A : Múltiplos de {3}={3,6,9,12,15}
+        B : > 6={7,8,9,10,11,12,13,14,15} P(B) = 9/15
+            (A∩B)={9,12,15} (A∩B)= 3/15
+          P(A/B)= P(A∩B)/P(B) = 3/15/9/15 = 3/9 = 1/3 = 0,33 = 33%
+
+b) Redução do espaço amostral:
+    n(s)={7,8,9,10,11,12,13,14,15} = {9}
+    A: Múltiplo {3}= {9,12,15}
+      P(A)= 3/9 = 1/3
+
+
+
+
+      
