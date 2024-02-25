@@ -30,5 +30,16 @@ PERMUTAÇÃO COM ELEMENTOS REPETIDOS:
       - p³²(9) = 60.480 / 2 
       - p³²(9) = 30.240 possibilidades de permutação para a palavra FERVOROSO.
 -----------------------//--------------------------//------------------------//-----------------------//----------------
+EXEMPLO 02:
+  - Uma URNA contém 8 bolas: 5 AZUIS e 3 CINZAS. De quantas maneiras é possível retirar, uma a uma as 8 bolas dessa urna?
+      Resposta: 
+           - AAAAACCC = Total de 8 bolas
+      P₈⁵³ = n!
+      P₈⁵³ = 8!/5!.3!
+      P₈⁵³ = 8.7.6.5! / 5!.3.2.1
+      P₈⁵³ = 8.7.6.5! / 5!.6 <- Elimina os valores em evidência ( repetidos )
+      P₈⁵³ = 8.7 = 56  possibilidades de retirar todas as bolas.			
+-----------------------//--------------------------//------------------------//-----------------------//----------------
 
-      
+
+	
