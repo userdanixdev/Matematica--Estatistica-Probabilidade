@@ -15,6 +15,56 @@ Exemplo 02:
         nU = {1,2,3,4,5,6} = 6 total
       P(4)= 1/6 = 0,16 = 16%
 -------------------//------------------------------//----------------------------//
+LANÇAMENTO DE MOEDAS:
+  Exemplo 03:
+    - Qual a probabilidade de lançarmos 1 moeda e obtermos:
+a) Uma cara:
+    - P=1/2 = 0,5 = 50%
+b) Um coroa:
+    - P=1/2 = 0,5 = 50%
+=========================//========================================//============================//
+Exemplo 03:
+  - Qual a probabilidade de lançarmos 2 moedas e obtermos:
+a) Duas caras:
+  - nE = {CC} = 2 CARAS
+    nU = {CC,KK,CK,KC} = 4 POSSIBILIDADES
+
+p = Ne/nU = 1/4 = 0,25 = 25%
+
+b) Duas coroas:
+    - P = nE = {KK} = 2 Coroas
+          nU = {CC;KK;KC;CK) = 4 possibilidades
+P= Ne/Nu = 1/4 = 0,25 = 25%
+
+c) Uma cara e uma coroa:
+    - nE = {CK} = 2 possibilidades = Cara e Coroa
+    - nU = {CC;KK;KC;CK) = 4 possibilidades
+    - P= nE/nU = 2/4 = 1/2 = 0,5 = 50% de chances de sair cara ou coroa;
+
+d) Uma cara e uma coroa nessa ordem:
+    P = nE/nU = 1/4 = 25% na ordem
+--------------------//------------------------//---------------------//--------------------//
+LANÇAMENTO DE 3 MOEDAS:
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                     
