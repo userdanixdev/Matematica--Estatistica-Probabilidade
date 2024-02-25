@@ -42,6 +42,8 @@ Qual é a probabilidade de ser múltiplo de 2 ou múltiplo de 3?
         A∩B = {3,3}; n(A∩B)= 1 P(A∩B)=1/36
                 P(Aub) = P(A)+P(B)-P(A∩B)
                 P(Aub) = 5/36 + 6/36 - 1/36 = 10/36 = 5/18 = 0,27 = 27%
+
+
                 
 
 
