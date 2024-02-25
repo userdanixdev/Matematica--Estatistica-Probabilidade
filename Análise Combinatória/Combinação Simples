@@ -13,3 +13,16 @@ Quantas comissões de 3 participantes podem ser formadas com 5 pessoas?
       C₅,₃ = 5.4 / 2!
       C₅,₃ = 20/2 = 10 comissões se tiver 5 pessoas com 3 participantes.
 -------------------------//----------------------------------//----------------------------//----------------------------
+Exemplo 2:
+    - Em uma empresa há 6 sócios brasileiros e 4 sócios japoneses. A diretoria será composta por 5 sócios, sendo 3 brasileiros e 2 japoneses.
+        De quantas modos essa composição poderá ocorrer?
+    C(n,p) = n!/P!.(n-P)!
+      C₆,₃       *      C₄,₂ =
+C₆,₃ = 6!/3.(6-3)!      C₄,₂ = 4!/2!(4-2)!           
+C₆,₃ = 6.5.4.3!/3!3!    C₄,₂ = 4.3.2!/2!.2! 
+C₆,₃ = 6.5.4/6          C₄,₂ = 4.3/2
+C₆,₃ = 120/6            C₄,₂ = 12/2 
+C₆,₃ = 20               C₄,₂ = 6
+
+  C₆,₃ * C₄,₂ = 120 possibilidades
+------------------------------//===================================//--------------------------//-------------------
