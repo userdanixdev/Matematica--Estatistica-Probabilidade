@@ -7,3 +7,11 @@ Exemplo:
                 P(5) = 5!
                 P(5) = 5.4.3.2.1 = 120 possibilidades distintas de formar esses números
 -------------//---------------------//----------------------------//---------------------
+Exemplo 02:
+  - Quantos anagramas tem a palavra EDITORA?
+       - Obs: Mudando a ordem essa palavra, formaria outro nome. Não importa fazer o sentido.
+               Com a permutação simples teremos o resultado das possibilidades.
+        - P(n) = n!    <---- Contar quantas letras tem a palavra
+        = P(7) = 7!
+        = P(7) = 7.6.5.4.3.1 = 5040 possibilidades totais de formar palavras distintas.
+-----------------------//---------------------------//-------------------------//----------------------
