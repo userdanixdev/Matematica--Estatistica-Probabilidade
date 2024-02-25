@@ -1,0 +1,21 @@
+PRINCÍPIO MULTIPLICATIVO:
+      *** É basicamente multiplicar as opções ou maneiras de forma SIMPLIFICADA. ***
+
+- Exemplo:
+      - André tem duas bermudas ( preta e cinza ) e quatro camisas ( branca, verde, amarela e roxa).
+        De quantas maneiras diferentes ele poderá se vestir usando bermuda e uma camiseta?
+            2 opções de bermudas e 4 opções de camisas = 2 X 4 = 8 possibilidades para se vestir
+ 
+----------------------------//-------------------------------//-------------------------------
+- Exemplo 02:
+      - Um restaurante oferece no cardápio duas saladas, 4 tipos de carne, 5 variedades de bebidas e 3 sobremesas diferentes.
+            Uma pessoa deseja comer uma salada, uma carne, uma bebida e uma sobremesa.
+      ** Fazendo uma árvore de possibilidade também ajudaria, porém, traria muito trabalho para fazer e resolver a questão, sendo assim:
+              Contar um por um no diagrama não é rápido, levando em consideração as inúmeras possibilidades, portanto:
+          Temos 4 escolhas, usando o princípio multiplicativo:
+              2 * 4 * 5 * 3 = 120 possibilidades totais.
+
+----------------------------------//-------------------------//-----------------------------
+
+
+
