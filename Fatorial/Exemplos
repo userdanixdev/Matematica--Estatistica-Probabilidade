@@ -1,0 +1,58 @@
+Fatorial - Matemática no papel - Youtube :
+	
+	- Sendo 'n' um número inteiro maior que 1, define-se fatorial de 'n' como produto dos 'n' números naturais consecutivos de 'n' a 1.
+	
+****	Observação importante: 0! = 1 e 1! = 1  ****
+
+Exemplos:
+	- 4! = 4.3.2.1 = 24
+	- 5! = 5.4.3.2.1 = 120
+	- 8! = 8.7.6.5.4.3.2.1 = 40320
+	- 8!/4! =  8.7.6.5.4!/4! = 8.7.6.5 = 1680
+	- n! = n.(n-1).(n-2).(n-3)...1
+	- (n-1)! = (n-1).(n-2).(n-2)...1
+	- (n+1)! = (n+1).n.(n-1)...1
+	- 7!-5!/4! = 7.6.5.4! - 5.4!/4! = 4!(210-5)/4! = 210-5 = 205
+	- 10!/8! = 10.9.8!/8! = 90
+	- n!/(n-1)! = n.(n-1)!/(n-1)! =  n
+	- n! - (n+1)!/ n!
+	  1n! - (n+1)!/ n!
+	    n!.(1-(n+1))/n!
+	     (1-(n+1))
+		1-n+1
+		= n
+	     	 	
+
+EQUAÇÃO FATORIAL:
+	- (n+2)!.(n-1)!/ (n+1)!.n! = 6/5
+		(n+2).(n+1).n.(n-1)!.(n-1)! / (n+1).n.(n-1)!.n.(n-1)! = 6/5
+			(n+2) / n = 6/5  * meio pelos extremos *
+			 6n = 5n + 10
+			  6n-5n = 10
+			    n = 10
+			
+-------------------------------------------------------------//-----------
+	EQUAÇÃO FATORIAL:
+		- (n-2)! = 2(n-4)!
+		(n-2).(n-3).(n-4)! = 2(n-4)!
+                (n-2).(n-3)=2  <- PROPRIEDADE DISTRIBUTIVA, SENDO ASSIM:
+		n²-3n-2n+6 = 2
+		 n²-5n+6-2=0
+		n² - 5n + 4 = 0 < --- Equação de 2°grau, sendo assim aplicar báskara:
+		▲ = b² - 4.a.c <--- b²= 5; a=n²(1);c=4
+		▲ = 5² - 4.1.4
+		▲ = 25 - 16
+		▲ = 9
+
+	n¹=-b±√▲/2a      n²=5±√9/2a
+	n¹=5±√9/2.1      n²=5-3/2.1
+	n¹=5+3/2	 n²=2/2	
+	n¹=8/2		 n² = 1
+	n¹=4
+	    
+*** NÃO PODERÁ SER 1 POIS O RESULTADO DO FATORIAL DARÁ NEGATIVO. ***
+*** A RESPOSTA CORRETA SERIA 4 :
+		- (n-2)! = 2(n-4)!
+		   (4-2)! = 2(4-4)!
+		    2!=2(1)!
+		     2 = 2
