@@ -1,0 +1,28 @@
+1) Uma urna contêm 50 bolas numeradas de 1 a 50. Retira-se uma bola ao acaso.
+    Qual é a probabilidade de ser :
+    A) Um múltiplo de 12?
+          n(s) = 50   P(e)=n(e)/n(s)
+          Múltiplos : (12)={12,24,36,48}
+              n(e)=4  P(e)=4/50 = 2/25 = 0,08 = 8 %
+2) Um quadrado perfeito?
+    {1²,2²,3²,4²,5²,6²,7²}
+     {1,4,9,16,25,36,49} n(e)=7        p=(e)=7/50 = 0,14 = 14%
+
+3) Um dado é lançado 2 vezes sucessivamente. 
+Qual a probabilidade de que a soma dos pontos seja menor ou igual a 6?
+  P(e)=n(e)/n(s)
+  n(s)= 6/1° lançamento X 6/2°Lançamento = 36
+  SOMAS:
+  2 --> (1.1)
+  3 --> (1,2);(2,1)
+  4 --> (1,3);(3,1);(2,2)
+  5 --> (1,4);(4,1);(2;3);(3;2)
+  6 --> (1,5);(5,1);(2,4);(4;2);(2;4);(3;3)
+  n(e) = 15 possibilidades
+  P(e)=n(e)/n(s)
+  P(e)=15/36=5/12 = 0,416 = 41,6%
+  ----------------//-----------------------//---------------------------//-------------
+  
+  
+  
+      
