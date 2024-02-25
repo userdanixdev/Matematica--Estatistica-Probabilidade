@@ -107,6 +107,41 @@ Qual a probabilidade desse número ser múltiplo de 4?
           nE = (2,4);(4,2) = 2 possibilidades
           P = nE/nU =  2/5 = 0,4 = 40%
 -------------------//---------------------///------------------------//------------------------
+EVENTOS INDEPENDENTES:
+  - São eventos, dois ou mais, que não dependem um do outro.
+Exemplo:
+    - Um dado comum é lançado duas vezes. Qual a probabilidade de saírem números menores que 3 nos dois lançamentos?
+              nE = >3 = {1,2} = 2 POSSIBILIDADES * nE = >3 = {1,2} = 2
+                        2/6 * 2/6 = 4/36 = 4/9 = 1/9 = 0,11 = 11%
+                                  
+- No lançamento de uma moeda e um dado simultaneamente, qual a probabilidade de sair cara na moeda e a face superior do dado ser 2?
+     Respostas: A probabilidade de dois eventos acontecerem independentes acontecerem...
+                   MOEDA: Para cara: 1/2                           
+                   DADO: Número 2 = 1/6 
+                1/2*1/6= 1/12 = 0,083 = 8,3%
+
+=================//============================//=========================//=====================//===============
+UNIÃO DE EVENTOS:
+  P(AuB) = P(A) + P(B) - P(A∩B)
+Exemplo:
+      Num grupo de 80 alunos, 50 jogam futebol, 40 jogam vôlei e 20 jogam os dois ( football and voley )
+     Escolhrendo ao acaso um dos aluno, qual a probabilidade dele jogar futebol e volei?
+                  Resposta:
+                        - 80 alunos no Total
+                        - 50 = Futebol
+                        - 40 = Volei
+                        - 20 = Futebol e Volei
+                        - 10 =  Não jogam nada
+        P(AuB) = P(A) + P(B) - P(A∩B)
+        P(AuB) = P(F) + P(V) - P(F∩V)
+                 50/80 + 40/80 - 20/80 = 
+                  50+40-20 = 70/80 = 7/8 = 0,87 = 87% de saber jogar os dois.
+                  
+
+
+
+
+
 
 
 
