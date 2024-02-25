@@ -1,0 +1,9 @@
+PERMUTAÇÃO SIMPLES:
+  ** BASICAMENTE PERMUTAÇÃO É TROCAR, MAS NA MATEMÁTICA APLICADA É ASSIM:
+Exemplo:
+  - Quantos números de 5 algarismos distintos podem ser formados por 1,2,3,5 e 8?
+      *** Não importa a ordem numérica ***
+                P(n)=n!
+                P(5) = 5!
+                P(5) = 5.4.3.2.1 = 120 possibilidades distintas de formar esses números
+-------------//---------------------//----------------------------//---------------------
