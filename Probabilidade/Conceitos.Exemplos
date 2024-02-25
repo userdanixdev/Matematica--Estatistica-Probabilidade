@@ -89,6 +89,27 @@ LANÇAMENTO DE DADOS:
               nU = {5,6} = 2 
               nE = 6
               P = 2/6 = 0,33 = 33%
+-------------//------------------------//----------------//---------------//------------
+
+PROBABILIDADE CONDICIONAL:
+    - Uma caixa contêm 20 papéis enumerados de 1 a 20. Mariana retira um papel ao acaso e percebe
+que nele está escrito um número maior que 7 (<7). 
+Qual a probabilidade desse número ser múltiplo de 4?
+
+      nU = {8,9,10,11,12,13,14,15,16,17,18,19,20} = 13 =  Total de números da caixa maiores que 7.
+        Os múltiplos de 4 = nE =  {8,12,16,20} = 4 
+      P = nE/nU = 4/13 = 0,307 = 30,7%
+  
+      - Ao lançarmos dois dados não viciados percebemos que a soma das faces voltadas para cima deu 6.
+          Qual a probabilidade de ocorrer a face 4 em um deles?
+
+          nU = (1,5);(2,4);(3,3);(4,2);(5,1) = 5 possíveis favoráveis
+          nE = (2,4);(4,2) = 2 possibilidades
+          P = nE/nU =  2/5 = 0,4 = 40%
+-------------------//---------------------///------------------------//------------------------
+
+
+
               
     
 
