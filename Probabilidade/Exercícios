@@ -22,7 +22,34 @@ Qual a probabilidade de que a soma dos pontos seja menor ou igual a 6?
   P(e)=n(e)/n(s)
   P(e)=15/36=5/12 = 0,416 = 41,6%
   ----------------//-----------------------//---------------------------//-------------
-  
+4) Numa URNA há 15 cartões, enumerados de 1 a 15. Retira-se um cartão ao acaso.
+Qual é a probabilidade de ser múltiplo de 2 ou múltiplo de 3?
+    n(s) = 15
+    A: múltiplos de (2)={2,4,6,8,10,12,14}, n(A) = 7
+            P(a)=7/15
+    B: Múltiplos de (3)= {3,6,9,12,15}, n(B)=5 
+            P(B)=5/15
+    INTERSECÇÃO = {6,12}, A∩b= {2}
+            P(A∩b)=7/15+5/15-2/15 = 
+                    10/15 = 2/3 = 0,66 = 66%
+
+-------------------//--------------------------///-----------------------------//----------------//
+5) DOIS DADOS SÃO LANÇADOS SIMULTANEAMENTE. QUAL É A PROBABILIDADE DE SAIR UMA SOMA 6 OU DOIS NÚMERO IGUAIS?
+        OBS: Quando tem 'OU' é UNIÃO DE DOIS EVENTOS - 
+        TOTAL = n(s)=6X6=36
+    A = SOMA 6 : (1,5);(5,1);(2,4);(4;2);(3;3) = n(A)=5; P(A)=5/36
+    B = N° IGUAIS : (1,1);(2,2);(3,3),(4,4);(5,5);(6,6) = n(B)=6, P(B)= 6/36
+        A∩B = {3,3}; n(A∩B)= 1 P(A∩B)=1/36
+                P(Aub) = P(A)+P(B)-P(A∩B)
+                P(Aub) = 5/36 + 6/36 - 1/36 = 10/36 = 5/18 = 0,27 = 27%
+                
+
+
+             
+
+
+
+
   
   
       
