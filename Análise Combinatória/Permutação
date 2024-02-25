@@ -40,6 +40,15 @@ EXEMPLO 02:
       P₈⁵³ = 8.7.6.5! / 5!.6 <- Elimina os valores em evidência ( repetidos )
       P₈⁵³ = 8.7 = 56  possibilidades de retirar todas as bolas.			
 -----------------------//--------------------------//------------------------//-----------------------//----------------
-
-
+PERMUTAÇÃO CIRCULAR:
+	- PCn =  (n-1)!
+Exemplo:
+    - De quantas formas diferentes 5 pessoas podem sentar em volta de uma mesa de forma circular?
 	
+	PC₅= (n-1)!		 
+	PC₅ = (5-1)!
+	PC₅ = 4!
+	PC₅ = 4.3.2.1 = 24 posições diferentes
+-----------------------//--------------------------//------------------------//-----------------------//----------------
+
+
