@@ -2,7 +2,7 @@ ESPERANÇA MATEMÁTICA:
   - Ao longo de 5 dias na semana, uma pessoa ganha 10 reais em um dia e ganha 20 reais nos outros quatro dias.
 
     Fórmula para o valor esperado, ou média, esperança matemática:
-                            μ=E(X)=x.P(x)
+                            μ=E(X)=∑x.P(x)
 
 Qual o ganho médio?
   2° | 3° | 4° | 5° | 6°
@@ -34,9 +34,9 @@ P=(x)   1/8|3/8|3/8|1/8
 R$      0  | 2 | 4 | 8 |    
 
 Fórmula para o valor esperado, ou média, esperança matemática:
-                            μ=E(X)=x.P(x)
+                            μ=E(X)=∑x.P(x)
 
-Sendo assim:   μ=E(X)=x.P(x) /  μ=E(X)= 0*1/8 +  2*3/8 + 4*3/8 + 8*1/8 = 26/8 = 
+Sendo assim:   μ=E(X)=∑x.P(x) /  μ=E(X)= 0*1/8 +  2*3/8 + 4*3/8 + 8*1/8 = 26/8 = 
                                     μ=E(X) = 3,25 de valor esperado
 _------------------------------//-----------------------//---------------------//------------------------//------------------------
 
@@ -46,7 +46,7 @@ R$ 500, R$ 250, R$ 150 e R$ 75. Você compra um bilhete. Qual o valor esperado d
 Prêmio |  500 |   250 | 150  |   75  |    0(-2)|
 P(x)   |1/1500| 1/1500|1/1500| 1/1500|1496/1500|
 
-       μ=E(X)=x.P(x)
+       μ=E(X)=∑x.P(x)
         μ=E(X)=500 * 1/1500 + 250 * 1/1500 + 150 * 1/1500 + 75 * 1/1500 - 2 * 1496/1500 = 975 - 2992/1500 = 2017/1500 = - 1,3446
                     = μ=E(X)= - 1,35 reais ( Sendo assim, você esta perdendo isso. Gasta 2 e perde 1,35 reais )
 ==============================//=================================//================================//=============================//==============
