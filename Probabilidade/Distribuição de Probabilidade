@@ -75,5 +75,23 @@ DISTRIBUIÇÃO DE PROBABILIDADE:
      P(X=X)|6/56 |30/56|20/56|   1 
      P(X=X)|0,107|0,535|0,357| 0,999
 -------------------------//-----------------------------//=======================//========================//----------------------
+Supomos que um Call Center a probabilidade de cada atendente estar disponível para fazer um atendimento é de 0,7.
+A empresa conta com 4 atendentes e que a probabilidade de uma ligação ser atendida seja superior a 99%.
+A empresa deve contratar mais atendentes?
+
+      P(x=0) = 0,3⁴*1 = 0,0081
+      P(x=1) = 0,7¹*0,3³*4 = 0,7*0,027*4 = 0,0756
+      P(x=2) = 0,7²*0,3²*C₄₂=6 = 0,49*0,09*6 = 0,2646
+      P(x=3) = 0,7³*0,3¹*C₄₃=4 = 0,343*0,3*4 = 0,4116
+      P(x=4) = 0,7⁴*C₄₄=1 =  0,2401 
+
+P(x>=1) = 1 - P(x=0) = 1 - 0,0081 = 0,9919 = 99,19%   * PEGA O RESTO , PROBABILIDADE COMPLEMENTAR *
+      Sendo assim, não há necessidade de empresa contratar mais atendentes. Sendo que a possibilidade de uma ligação ser 
+                              atendida é superior a 99%.
+---------------------------//-----------------------------------------//----------------------------//---------------------------///---------------
+
+
+
+
 
 
