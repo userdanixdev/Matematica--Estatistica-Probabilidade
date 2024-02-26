@@ -11,3 +11,14 @@ Os resultados da pesquisa estão na tabela a seguir:
       4 ----- 30
       5 ----- 21 
     total ---- 150
+
+Frequência Acumulada:   *** P =  Probabilidade ***
+P(x=1) = 24/150 = 0,16 = 16%
+P(x=2) = 33/150 = 0,22 = 22%
+P(x=3) = 42/150 = 0,28 = 28%
+P(x=4) = 30/150 = 0,20 = 20%
+P(x=5) = 21/150 = 0,14 = 14%
+
+   x  || 1  | 2  | 3  | 4  |  5 | Total
+P(X=x)||0,16|0,22|0,28|0,20|0,14|  1
+
