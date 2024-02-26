@@ -50,6 +50,30 @@ d) Calcule P(x<2):
 e) Calcule P(x>=2):
             P(x>=2) = e(x=2)+e(x=3) = 0,288 + 0,064 = 0,352 = 35%
 -----------------------//-------------------------//--------------------------------//-----------
+Exemplo 03
+      - Em uma caixa há 5 peças boas e 3 defeituosas. Duas peças são retiradas ao acaso e sem reposição.
+Definindo a variável aleatória X como sendo o número de peças boas retiradas, obtenha a distribuição de probabilidades.
 
-      
+X: número de peças boas
+Total = 8 peças na caixa
+
+1° Retirada:       2°Retirada:
+      e(Boa)=5        e(BOA) = 4    e(RUIM) = 3
+      u(BOA)=8        e(BOA) = 7    e(RUIM) = 7
+      e(Ruim)=3       e(RUIM) = 2   e(BOA) = 5
+      u(RUIM)=8       e(RUIM) = 7   e(BOA) = 7
+
+BOAS:
+5/8*4/7 = 20/56
+5/8*3/7 = 15/56
+RUINS:
+3/8*5/7=15/56
+3/8*2/7=6/56
+
+DISTRIBUIÇÃO DE PROBABILIDADE:
+      - x  |  0  |  1  |  2  | TOTAL
+     P(X=X)|6/56 |30/56|20/56|   1 
+     P(X=X)|0,107|0,535|0,357| 0,999
+-------------------------//-----------------------------//=======================//========================//----------------------
+
 
