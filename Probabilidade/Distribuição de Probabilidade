@@ -1,0 +1,13 @@
+Um psicólogo aplicou um teste para classificar o nível de estresse dos 150 funcionários de uma empresa.
+Para isso, ele atribuiu cinco possibilidades: muito calmo, calmo, moderado, irritado e muito irritado.
+Essas características foram pontuadas com valores de 1 à 5, onde 1 indica a qualidade 'muito calmo' e 5
+indica 'muito irritado'. Definindo a variável aleatório X: nível de estresse, podemos dizer que x = 1,2,3,4,5.
+Os resultados da pesquisa estão na tabela a seguir:
+
+      x --- frequência
+      1 ----- 24
+      2 ----- 33
+      3 ----- 42
+      4 ----- 30
+      5 ----- 21 
+    total ---- 150
