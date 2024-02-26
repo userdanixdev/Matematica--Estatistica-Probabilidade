@@ -26,3 +26,30 @@ P(X=x)||0,16|0,22|0,28|0,20|0,14|  1     +
 A tabela acima é uma distribuição de probabilidade, podendo ser representada por um gráfico também.
 --------------------//-------------------//-------------------------//----------------//
 
+EXEMPLO 02 :
+      - Em uma cidade a distribuição de probabilidade da variável que representa o número de dias
+de chuva ao longo de uma determinada semana é dada pela tabela:
+
+      Dias de chuva || Probabilidade
+            0               0,216
+            1               0,432
+            2                m
+            3               0,064
+
+a) Defina a variável aleatória X:
+            - X = Número de dias com chuva em uma semana.
+b) Calcule o valor 'm' apresentado na tabela: 
+            0,216 + 0,432 + m + 0,064 = 1
+                  0,712 + m = 1 
+                  m = 1 - 0,712
+                  m = 0,288
+c) Determine P(X=3):
+            P(x=3)= 0,064 ou 6,4%
+d) Calcule P(x<2):
+            P(x<2) = e(1)+e(0)= 0,432 + 0,216 = 0,648 = 65%
+e) Calcule P(x>=2):
+            P(x>=2) = e(x=2)+e(x=3) = 0,288 + 0,064 = 0,352 = 35%
+-----------------------//-------------------------//--------------------------------//-----------
+
+      
+
