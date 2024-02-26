@@ -4,7 +4,10 @@ em torno da média.
   - A medida mostra o quanto a variável oscila ao redor da média.
   - É uma variável aleatória que indica o quão longe em geral os seus valores se encontram do valor esperado.
 
-                 δ²(X) = Variância(X) = E(X²)-E²(X) 
+SIGMA = δ = DESVIO PADRÃO 
+  - É outra medida de dispersão em torno da média esperada. Obtida pela raiz quadrada da VARIÂNCIA.
+
+                    δ²(X) = Variância(X) = E(X²)-E²(X) 
 
       DESVIO PADRÃO = δ(X)=√δ²(x) = DP(X) = √variância(x)
 
@@ -40,6 +43,22 @@ que a Função Densidade de Probabilidade seja a seguinte:
 μ=E(X)∑x.P(x=x) = 1.0,25 + 2.0,1 + 3.0,15 + 4.0,15 + 5.0,1 + 6.0,25
                     0,25 + 0,2 + 0,45 + 0,6 + 0,5 + 1,5
                   μ = 3,5 de valor esperado, esperança matemática
+
+Qual a variância?
+
+∑x².P(x) = 
+1².0,25 + 2².0,1 + 3².0,15 + 4².0,15 + 5².0,1 + 6².0,25
+0,25 + 0,4 + 1,35 + 2,4 + 2,5 + 9 = 15,9
+
+                        δ²(X) = Variância(X) = E(X²)-E²(X)
+                        δ²(X) = E(X²)-E²(X)
+                        δ²(X) = ∑x².P(x) -  3,5²
+                        δ²(X) = 15,9 - 12,25
+                        δ²(X) = 3,65
+    
+-----------------//---------------------//----------------------//--------------------//
+
+
 
 
 
