@@ -18,6 +18,29 @@ x¹=10     1/5 = P¹
 x²=20     4/5 = p²
 
 ----------------//-------------------------//-------------------//-------------------//--------------
+Exemplo:
+
+Considere um jogo no qual se lançam três moedas não viciadas e se recebe R$2,00 caso apareça 1 cara, R$ 4,00 se aparecem 2 caras e
+R$ 8,00 caso apareçam 3 caras. Se nenhuma cara ocorrer, nada se recebe. Quanto se esperaria ganhar caso
+fizesse esse jogo uma vez? Ou seja, qual o valor esperado pela jogada?
+
+3 MOEDAS: {KKK}{KKC}{KCK}{KCC} = Cada evento com 1/2 de probabilidade = 1/2*1/2*1/2 = 1/8
+          {CCC}{CKK}{CKC}{CCK} = Cada evento com 1/2 de probabilidade
+
+8 POSSIBILIDADES NO TOTAL EM ESPAÇO AMOSTRAL, OK?
+
+N°Caras 0  | 1 | 2 | 3 |
+P=(x)   1/8|3/8|3/8|1/8
+R$      0  | 2 | 4 | 8 |    
+
+Fórmula para o valor esperado, ou média, esperança matemática:
+                            μ=E(X)=x.P(x)
+
+Sendo assim:   μ=E(X)=x.P(x) /  μ=E(X)= 0*1/8 +  2*3/8 + 4*3/8 + 8*1/8 = 26/8 = 
+                                    μ=E(X) = 3,25 de valor esperado
+_------------------------------//-----------------------//---------------------//------------------------//------------------------
+
+
 
     
   
