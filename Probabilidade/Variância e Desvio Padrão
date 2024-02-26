@@ -1,0 +1,38 @@
+VARIÂNCIA E DESVIO PADRÃO
+  - A variância é uma medida de dispersão que avalia o grau de homogeneidade dos valores da variável
+em torno da média.
+  - A medida mostra o quanto a variável oscila ao redor da média.
+
+                 δ²(X) = Variância(X) = E(X²)-E²(X) 
+
+      DESVIO PADRÃO = δ(X)=√δ²(x) = DP(X) = √variância(x)
+
+Uma loja possui a seguinte distribuição de vendas de geladeiras por semana:
+            x(vendas) |  0 |  1 |  2 |  3 |  4  |
+             P(X=x)   |0,20|0,30|0,30|0,15|0,05 |
+Calcular o valor esperado e os desvio padrão da variável X tal que X: número de vendas por semana:
+
+E(x) = ∑ x.P(x)
+E(x) = 0*0,20 + 1*0,30 + 2*0,30 + 3*0,15 + 4*0,05
+E(x) = 1,55 de valor esperado
+
+E(x²) = ∑x².P(x)
+E(x²) = 0²*0,20 + 1²*0,30 + 2²*0,30 + 3²*0,15 + 4²*0,05
+E(x²) = 3,65
+
+Fórmula para calcular a Variância:
+  - δ²(X) = Variância(X) = E(X²)-E²(X)
+    δ²(X) = E(X²)-E²(X) = 3,65 - [1,55]² 
+    δ²(X) = 3,65 - 2,4025
+    δ²(X) = 3,65 - 2,4025 
+    δ²(X) = 1,25
+
+O DESVIO PADRÃO É A RAIZ QUADRADA DA VARIÂNCIA:
+      δ(X)=√δ²(x) = √1,25 =  1,118 ± 1,12
+
+-----------------------------//-------------------------------------//---------------------------//--------------
+
+
+
+
+
