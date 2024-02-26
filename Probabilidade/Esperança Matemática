@@ -1,0 +1,26 @@
+ESPERANÇA MATEMÁTICA:
+  - Ao longo de 5 dias na semana, uma pessoa ganha 10 reais em um dia e ganha 20 reais nos outros quatro dias.
+
+    Fórmula para o valor esperado, ou média, esperança matemática:
+                            μ=E(X)=x.P(x)
+
+Qual o ganho médio?
+  2° | 3° | 4° | 5° | 6°
+  10 | 20 | 20 | 20 | 20
+
+  μ = 10 + 20 + 20 + 20 + 20 / 5 = 90/5 = 18 reais
+
+  μ=10.1 + 20.4/5 = 
+    10.1/5 + 20.4/5 = 
+
+Ganho | Probabilidade
+x¹=10     1/5 = P¹
+x²=20     4/5 = p²
+
+----------------//-------------------------//-------------------//-------------------//--------------
+
+    
+  
+  
+
+    
