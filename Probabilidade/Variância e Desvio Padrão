@@ -2,6 +2,7 @@ VARIÂNCIA E DESVIO PADRÃO
   - A variância é uma medida de dispersão que avalia o grau de homogeneidade dos valores da variável
 em torno da média.
   - A medida mostra o quanto a variável oscila ao redor da média.
+  - É uma variável aleatória que indica o quão longe em geral os seus valores se encontram do valor esperado.
 
                  δ²(X) = Variância(X) = E(X²)-E²(X) 
 
