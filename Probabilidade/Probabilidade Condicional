@@ -30,6 +30,26 @@ com reposição. Qual probabilidade de que ambas sejam brancas?
 E SE NÃO HOUVESSE REPOSIÇÃO?
         - P(B₁∩B₂)= P(B₁).P(B₂/B₁)
                     3/8 * 2/7 = 6/56 = 3/28 = 0,10 = 10% de que ambas sejam brancas.
+----------------//-----------------------//------------------------/---------------
+Exemplo 02:
+    - Uma moeda e um dado são lançados simultaneamente. Qual a probabilidade de ocorrer COROA e N° par?
+            n(S)={K}=1            Dado = {2,4,6} = n(s)={3}
+            n(U)={C,K} = 2         n(u)={1,2,3,4,5,6} = {6}
+                P(a)=1/2            n(u)=3/6 = 1/2
+                        1/2*1/2 = 1/4 = 0,25 = 25%
+-------------//----------------------//-------------------------//----------------------//-------------/
+Exemplo 03:
+        - A probabilidade de uma pessoa chegar 5 minutos atrasado no aeroporto é 5% e a probabilidade
+            do voo atrasar 5 minutos é 15%.
+    A) Qual a probabilidade da pessoa chegar atrasada mas não perder o vÔo??
+                5% * 15%
+             5/100 * 15/100 = 1/20 * 3/20 = 3/400 = 0,0075 = 0,75%
+    b) Qual a probabilidade da pessoa perder o vôo?
+             5% * 85%
+            5/100 * 85/100 = 1/20 * 17/20 = 17/400 = 0,0425 = 4,25%
+------------------//-------------------------//---------------------//----------------------//-----
+
+                
 
                     
     
