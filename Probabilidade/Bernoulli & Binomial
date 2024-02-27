@@ -56,8 +56,36 @@ Qual a probabilidade de tal fato acontecer?
                                                                                   - (C₄,₂) = 6
          
 -----------------------------------///-----------------------------------------------//---------------------------//---------------------//
+Uma URNA tem 4 bolas vermelhas (V) e 6 brancas(B). Uma bola é tirada e reposta na urna.
+O Experimento é repetido 5 vezes. Qual a probabilidade de observarmos exatamente 3 vezes a bola vermelha?
 
+X: Número de bolas vermelhas ( SUCESSO )
+P = 4/10 = 0,4 = 40 %
+n° de tentativas = 5
+                P(X = k) = (nk).p^k.(1-p)^n-k
+                P(X=3) = (C₅,₃) * 0,4³ * (1-0,4)⁵-³
+                P(X=3) = (C₅,₃) * 0,4³ * (1-0,4)⁵-³
 
+Calculos da COMBINAÇÃO (C₅,₃) :
+  - (C₅,₃) = n! / k!(n-k)!
+  - (C₅,₃) = 5! / 3!(5-3)!
+  - (C₅,₃) = 5.4.3! / 3! (2)!
+  - (C₅,₃) = 5.4 / 2
+  - (C₅,₃) = 20 / 2 
+  - (C₅,₃) = 10
+        
+                P(X=3) = 10 * 0,064 * (0,6)²
+                P(X=3) = 10 * 0,064 * 0,36
+                P(X=3) = 0,2304 = 23,04 %
+
+Temos uma probabilidade de 23,04% de pegar 3 bolas vermelhas.
+---------------------//-----------------------------//-----------------------------//-------------------------------//----------
+
+                
+                
+                
+                
+     
 
 
 
