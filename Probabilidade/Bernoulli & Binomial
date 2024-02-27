@@ -103,6 +103,31 @@ Calculo COMBINAÇÃO (C³⁰`⁵):
 
 TEMOS A PROBABILIDADE DE 10,23% DE QUE 5 PESSOAS DE 30 NO TOTAL POSSUEM O CARRO DA MARCA A
 ------------------------------//-----------------------------------------------------//-------------------------------------//
+Admite-se que uma válvula eletrônica instalada em determinado circuito tenha probabilidade 0,3 de funcionar mais de 600 horas.
+Analisando 10 válvulas, qual será a probabilidade de que entre elas, pelo menos 3 continuem funcionando apó 600 horas?
+
+  X: N° de válvulas que funcionam + de 600h = ( x ≥ 3 ) = k
+  P = 0,3
+  10 = nº de ensaios
+
+P(X = k) = (nk).p^k.(1-p)^n-k <--- Fórmula trabalha com igualdade, então.... Daria muito trabalho somar até a décima válvula.
+P(X ≥ 3) = 1 - P(x=3)+P(x=4)+...+P(x=10)] 
+                                  Dessa forma, usamos a regra complementar abaixo:
+P(X ≥ 3 ) = 1 - P(X < 3) = 1 - [P(x=0) + P(x=1) + P(X=2)] <-- Propriedade evento complementar
+P(X ≥ 3 ) = 1 - [P(X = 0) = (C₁₀,₀)*0,3⁰*(1-0,3)¹⁰`⁰ + P(x=1) = (C₁₀,₁)*0,3¹*(1-0,3)¹⁰`¹ + P(X=2)=(C₁₀,₂)*0,3²*(1-0,3)¹⁰`²
+P(X ≥ 3 ) = 1 - [P(X = 0) = 1*1*0,028 + P(x=1) = 10*0,3*0,040 + P(X=2) = 45*0,09* 0,057]
+P(X ≥ 3 ) = 1 - [0,028 + 0,121 + 0,233]
+P(X ≥ 3 ) = 1 - [0,3828]
+P(X ≥ 3 ) = 0,6172
+P(X ≥ 3 ) = 61,72%
+
+*** ANALISANDO AS 10 VÁLVULAS, A PROBABILIDADE DE PELO MENOS 3 OU MAIS CONTINUEM FUNCIONANDO É DE 61,72% ***
+-------------------//--------------------------//-------------------------//-------------------------//-------------------------//-------------
+
+
+
+
+
 
 
 
