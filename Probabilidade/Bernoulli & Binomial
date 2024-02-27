@@ -10,6 +10,7 @@ ENSAIOS DE BERNOULLI:
 Se em cada umas das 'n' repetições de Enssaios de Bernoulli a probabilidade de ocorrer um evento definido como sucesso
 é sempre 'p', a probabilidade de que esse evento ocorra em apenas 'k' das 'n' repetições é dada por:
     - P(X = k) = (nk).p^k.(1-p)^n-k
+                * O (nk) não é fração é produto binomial de uma COMBINAÇÃO POR FATORIAL *
 
 O experimento binomial deve satisfazer os seguintes critérios:
   - O experimento é repetido 'n' vezes, onde cada tentativa é independente das demais.
