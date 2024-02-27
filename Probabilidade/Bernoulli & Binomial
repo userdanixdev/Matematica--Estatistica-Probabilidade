@@ -124,6 +124,14 @@ P(X ≥ 3 ) = 61,72%                                                            
                                           
 *** ANALISANDO AS 10 VÁLVULAS, A PROBABILIDADE DE PELO MENOS 3 OU MAIS CONTINUEM FUNCIONANDO É DE 61,72% ***
 -------------------//--------------------------//-------------------------//-------------------------//-------------------------//-------------
+REGRA PARA EVENTOS COMPLEMENTARES:
+    - FÓRMULAS PARA DESIGUALDADES - 
+  P(X ≥ k) = 1 - P(X < k) 
+  P(X > k) = 1 - P(X ≤ k) 
+  P(X ≤ K) = 1 - P(X > k)
+  P(X < K) = 1 - P(X ≥ k)
+
+
 
 
 
