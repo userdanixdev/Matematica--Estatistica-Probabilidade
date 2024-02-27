@@ -142,11 +142,14 @@ p(x ≥ 2) = 1 - p(x < 2)
 Em uma grande pesquisa com 6000 respondentes, determinou-se que 1500 dos entrevistados assistiam determinado programa de TV.
 Se 20 pessoas são escolhidas ao acaso, qual a probabilidade de que ao menos 19 assistam a esse programa?
 
-X : n° de pessoas que assistem = Sucesso = k ≤ 19
+X : n° de pessoas que assistem = Sucesso = k ≥ 19
 P=n(e)/n(U)=1500/6000 = 1/4 = 0,25 = 25% 
 Número de repetições = 20x = n 
 
-P(x)
+P(x≥19)= P(x=19)+P(x=20) 
+P(x≥19)= p(x=19) = C₂₀,₁₉ * 0,25¹⁹ * (1-0,25)²⁰`¹⁹ + P(x=20) = C₂₀.₂₀ * 0,25²⁰ * (1-0,25)²⁰`²⁰
+P(x≥19) = 5,5-¹¹
+
 
 
 
