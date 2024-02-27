@@ -36,6 +36,28 @@ Para acertar 6 testes:
 
         
 ===================================//==============================================//===============================================//=========================//
+Um casal deseja ter 4 filhos, 2 homens e 2 mulheres. 
+Supondo que a probabilidade de nascimento de um homem (H) ou uma mulher (M) seja a mesma.
+Qual a probabilidade de tal fato acontecer?
+  X: Número de homens ( Sucesso ) ou  mulheres
+    P =p(e)/p(U) = 1/2 = 0,5
+    N° tentativas: 4
+     P(X = k) = (nk).p^k.(1-p)^n-k
+       P(X = 2) = (C₄,₂) * 0,5² * (1-0,5)⁴-²
+       P(X = 2) = 6 * 0,25 * 0,5²
+        P(X = 2) = 6 * 0,25 * 0,5²
+          P(X = 2) = 6 * 0,25 * 0,25
+            P(X = 2) = 6 * 0,25 * 0,25                                            Calculos da COMBINAÇÃO (C₄,₂) :
+             P(X = 2) =  0,375                                                    - (C₄,₂) = n! / k!(n-k)!
+                                                                                  - (C₄,₂) = 4! / 2!(4-2)!
+                                                                                  - (C₄,₂) = 4.3.2! / 2!(2)!
+    Para que tenha 4 filhos, seja 2 homens e 2 mulheres                           - (C₄,₂) = 4.3 / 2
+        terá uma probabilidade de 37,5% de acontecer.                             - (C₄,₂) = 12 / 2 
+                                                                                  - (C₄,₂) = 6
+         
+-----------------------------------///-----------------------------------------------//---------------------------//---------------------//
+
+
 
 
 
