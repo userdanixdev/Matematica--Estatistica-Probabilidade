@@ -16,6 +16,26 @@ O experimento binomial deve satisfazer os seguintes critérios:
   - O experimento é repetido 'n' vezes, onde cada tentativa é independente das demais.
   - Há apenas dois resultados possíveis em cada tentativa: Um de interesse, associado à variável X, chamado de sucesso e o seu complementar é o fracasso.
   - A probabilidade de sucesso será denotada por 'p'. E a probabilidade de fracasso será denotada por q = 1 - p.
+e
+Exemplo:
+  - Uma prova consta de 10 testes com 5 alternativas cada um, sendo apenas uma delas correta.
+Um aluno que nada sabe, chuta a resposta para cada teste. Qual é a probabilidade dele acertar exatamente 6 testes?
+   
+Calculando a probabilidade de um acerto: P(A)=n(e)/n(U)=1 acerto de 5alternativas = 1/5 = 0,2 = 20% <<-- Bernoulli
+Para acertar 6 testes:
+  - Número de repetições = 10 testes = n <--> p(E)=0,2
+        P(X = k) = (nk).p^k.(1-p)^n-k
+        P(X = 6) = (C₁₀,₆).0,2⁶.(1-0,2)¹⁰-⁶
+        P(X = 6) = (C₁₀,₆).0,2⁶.(1-0,2)¹⁰-⁶
+        P(X = 6) = 210 * 0,000064 * 0,8⁴  = 0,4096                             Cálculo da (C₁₀,₆):
+        P(X = 6) = 0,005505024 ( 0,55 % )                                       - C = n!/ k!(n-k)!
+                                                                                - C₁₀,₆ = 10! / 6!(10-6)!
+                                                                                - C₁₀,₆ = 10.9.8.7.6! / 6! (4)!
+  A probabilidade de acertar exatamente 6 testes é de 0,55%                     - C₁₀,₆ = 10.9.8.7 / (4)!
+                                                                                - C₁₀,₆ = 5040 / 24 = 210
+
+        
+===================================//==============================================//===============================================//=========================//
 
 
 
