@@ -4,3 +4,18 @@ ENSAIOS DE BERNOULLI:
   - Podem ocorrer apenas dois resultados - Um chamado de SUCESSO (S) e outro de FRACASSO (F).
   - A probabilidade de ocorrer sucesso em cada ensaio chamaremos de 'p' e a probabilidade de fracasso de de 'q'.
             Sendo assim: q = 1 - p, tal exprimento é chamado de ensaio de Bernoulli.
+
+*** NÃO RELACIONAR SUCESSO COM ALGO BOM OU RUIM E SIM O INTERESSE NO CONTEXTO ***
+
+Se em cada umas das 'n' repetições de Enssaios de Bernoulli a probabilidade de ocorrer um evento definido como sucesso
+é sempre 'p', a probabilidade de que esse evento ocorra em apenas 'k' das 'n' repetições é dada por:
+    - P(X = k) = (nk).p^k.(1-p)^n-k
+
+O experimento binomial deve satisfazer os seguintes critérios:
+  - O experimento é repetido 'n' vezes, onde cada tentativa é independente das demais.
+  - Há apenas dois resultados possíveis em cada tentativa: Um de interesse, associado à variável X, chamado de sucesso e o seu complementar é o fracasso.
+  - A probabilidade de sucesso será denotada por 'p'. E a probabilidade de fracasso será denotada por q = 1 - p.
+
+
+
+
