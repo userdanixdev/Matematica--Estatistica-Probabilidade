@@ -1,0 +1,6 @@
+ENSAIOS DE BERNOULLI:
+  - Um experimento que consiste em uma sequência de ensaios ou tentativas independentes.
+  - A probabilidade de um resultado em cada ensaio não depende dos resultados ocorridos nos ensaios anteriores e nem dos posteriores.
+  - Podem ocorrer apenas dois resultados - Um chamado de SUCESSO (S) e outro de FRACASSO (F).
+  - A probabilidade de ocorrer sucesso em cada ensaio chamaremos de 'p' e a probabilidade de fracasso de de 'q'.
+            Sendo assim: q = 1 - p, tal exprimento é chamado de ensaio de Bernoulli.
