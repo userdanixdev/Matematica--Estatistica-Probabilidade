@@ -80,6 +80,21 @@ Calculos da COMBINAÇÃO (C₅,₃) :
 
 Temos uma probabilidade de 23,04% de pegar 3 bolas vermelhas.
 ---------------------//-----------------------------//-----------------------------//-------------------------------//----------
+Em uma cidade, 10% das pessoas possuem carra da marca A. Se 30 pessoas são selecionadas ao acaso, COM REPOSIÇÃO.
+Qual a probabilidade de exatamente de 5 pessoas possuírem carro de marca A?
+
+x: nº de pessoas que tem o carro  ---> SUCESSO ----> 5 <----
+P = 10/100 = 0,10
+nº de ensaios de BERNOULLI = 30  <-- n
+k(X) = 5
+
+                      P(X = k) = (nk).p^k.(1-p)^n-k
+                      P(X = 5) = (C³⁰`⁵).0,10⁵.(1-0,10)³⁰`⁵
+                      P(X = 5) = 
+
+
+
+
 
                 
                 
