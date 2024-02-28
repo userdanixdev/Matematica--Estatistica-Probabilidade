@@ -206,11 +206,44 @@ de desistência dos voos anteriores. Uma emmpresa aérea possui um avião com ca
 Se para certo voo essa empresa vender 103 passagens e admitindo que a probabilidade de um passageiro
 não comparecer para embarque é de 1%., qual a probabilidade de algum passageiro não conseguir embarcar?
 
-X: N° de passageiros que comparecem ao embarque = sucesso = k
+X: N° de passageiros que comparecem ao embarque = sucesso = k > 100
 P = Comparecer ao embarque = 99% = 0,99
-n = Ensaios de Bernoulli = 103 passagens
-Limite de lugares = 100 lugares
-\P(x>100) = P(x ≥ 101) = P(x=101)+P(x=102)+P(x=103)/
+n = Ensaios de Bernoulli = 103 passagens                                  C₁₀₃.₁₀₁ = k!/n!(k-n)!
+                                                                          C₁₀₃.₁₀₁ = 103! / 101! (103-101)!
+ Limite de lugares = 100 lugares                                          C₁₀₃.₁₀₁ = 103.102.101! / 101! (2)!
+\P(x>100) = P(x ≥ 101) = P(x=101)+P(x=102)+P(x=103)                       C₁₀₃.₁₀₁ = 103.102 / 2 
+ P(x=101) = (Cnk).p^k(1-p)^n-k                                            C₁₀₃.₁₀₁ = 10506 / 2
+ P(x=101) = (C₁₀₃.₁₀₁).0,99¹⁰¹.(1-0,99)¹⁰³-¹⁰¹                            C₁₀₃.₁₀₁ = 5.253
+ P(x=101) = 5.253 * 0,3623 * 0,01²
+ P(x=101) = 5.253 * 0,3623 * 0,0001
+ P(x=101) = 0,1903
+
+P(x=102) = (Cnk).p^k(1-p)^n-k
+P(x=102) = (C₁₀₃.₁₀₂).0,99¹⁰².(1-0,99)¹⁰³-¹⁰²
+P(x=102) = 103.0,358.0,01¹                                                C₁₀₃.₁₀₂ = k!n!(k-n)!
+P(x=102) = 103.0,358.0,01                                                 C₁₀₃.₁₀₁ = 103!/102!(103-102)!
+P(x=102) = 0,368                                                          C₁₀₃.₁₀₁ = 103.102! / 102!(1)!
+                                                                          C₁₀₃.₁₀₁ = 103
+
+P(x=103) = (Cnk).p^k(1-p)^n-k
+P(x=103) = (C₁₀₃.₁₀₃).0,99¹⁰³.(1-0,99)¹⁰³-¹⁰³
+P(x=103) = 1 * 0,355 * 0,01⁰
+P(x=103) = 1 * 0,355 * 1
+P(x=103) = 0,355
+
+P(x>100) = 0,1903 + 0,368 + 0,355                              A PROBABILIDADE DE ALGUM PASSAGEIRO NÃO CONSEGUIR EMBARCAR É DE 91%
+P(x>100) = 0,9133
+P(x>100) = 91%
+
+----------------//--------------------------------------------//---------------------------------//----------------------------//--------------
+
+
+
+
+
+
+
+
 
 
 
