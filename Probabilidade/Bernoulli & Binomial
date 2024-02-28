@@ -43,12 +43,12 @@ Qual a probabilidade de tal fato acontecer?
     P =p(e)/p(U) = 1/2 = 0,5
     N° tentativas: 4
      P(X = k) = (nk).p^k.(1-p)^n-k
-       P(X = 2) = (C₄,₂) * 0,5² * (1-0,5)⁴-²
-       P(X = 2) = 6 * 0,25 * 0,5²
+      P(X = 2) = (C₄,₂) * 0,5² * (1-0,5)⁴-²
         P(X = 2) = 6 * 0,25 * 0,5²
+         P(X = 2) = 6 * 0,25 * 0,5²
           P(X = 2) = 6 * 0,25 * 0,25
             P(X = 2) = 6 * 0,25 * 0,25                                            Calculos da COMBINAÇÃO (C₄,₂) :
-             P(X = 2) =  0,375                                                    - (C₄,₂) = n! / k!(n-k)!
+              P(X = 2) =  0,375                                                   - (C₄,₂) = n! / k!(n-k)!
                                                                                   - (C₄,₂) = 4! / 2!(4-2)!
                                                                                   - (C₄,₂) = 4.3.2! / 2!(2)!
     Para que tenha 4 filhos, seja 2 homens e 2 mulheres                           - (C₄,₂) = 4.3 / 2
@@ -205,6 +205,13 @@ OVERBOOKING é a prática realizada na aviação do mundo todo. Consiste na empr
 de desistência dos voos anteriores. Uma emmpresa aérea possui um avião com capacidade para 100 lugares.
 Se para certo voo essa empresa vender 103 passagens e admitindo que a probabilidade de um passageiro
 não comparecer para embarque é de 1%., qual a probabilidade de algum passageiro não conseguir embarcar?
+
+X: N° de passageiros que comparecem ao embarque = sucesso = k
+P = Comparecer ao embarque = 99% = 0,99
+n = Ensaios de Bernoulli = 103 passagens
+Limite de lugares = 100 lugares
+\P(x>100) = P(x ≥ 101) = P(x=101)+P(x=102)+P(x=103)/
+
 
 
 
