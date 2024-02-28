@@ -152,6 +152,31 @@ P(x≥19) = 5,5-¹¹
 
 ** Probabilidade muito pequena de que ao menos 19 assistam ao programa ***
 -----------------------///--------------------------------//----------------------//--------------------//------------
+Vamos supor o lançamento de uma moeda honesta.(P=(C)=(K)=0,5). Ganha aquele que obtiver mais caras( no meu caso)
+ou coroas ( no caso do oponente ) em 7 lançamentos. Calcular a probabilidade de que você ganhe nesse jogo.
+
+x  : N°  de caras
+P = 0,5
+n° de intervalos de BERNOULLI = 7
+
+Para que você ganhe o jogo, no total de 7 lançamentos vc tem que ganhar CARA em, pelo menos
+4 oportunidades.
+Representando matematicamente:
+  - P( x ≥ 4 ) = 1-P( x < 4 )
+P(X ≥ 4) =  P(x=4)+...P(x=7)
+P = 0,5
+K =  tentativas para ganhar = 4
+n = 7 lançamentos ( experimentos de Bernoulli )
+P(X ≥ 4) = (C).p^k.(1-p)^n-k
+P(X ≥ 4) = (C₇.₄) * 0,5⁴ * (1-0,5)⁷`⁴ + (C₇.₅) * 0,5⁵ * (1-0,5)⁷`⁵ + (C₇.₆) * 0,5⁶ * (1-0,5)⁷`⁶ + (C₇.₇) * 0,5⁷ * (1+0,5)⁷`⁷
+P(X ≥ 4) = 35*0,5⁷ + 21*0,5⁷ + 7*0,5⁷ + 1*0,5⁷ 
+P(X ≥ 4) = 0,5⁷ (35+21+7+1)
+P(X ≥ 4) = 0,0078125 * 64 
+P(X ≥ 4) = 0,5 
+P(X ≥ 4) = 50% de probabilidade de ganhar o jogo.
+----------------------//-------------------------------//-------------------------------------//--------------------------///------------------
+
+
 
 
 
