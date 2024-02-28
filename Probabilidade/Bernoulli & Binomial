@@ -175,6 +175,16 @@ P(X ≥ 4) = 0,0078125 * 64
 P(X ≥ 4) = 0,5 
 P(X ≥ 4) = 50% de probabilidade de ganhar o jogo.
 ----------------------//-------------------------------//-------------------------------------//--------------------------///------------------
+Vamos ao lançamento de uma moeda viciada em que a probabilidade de cara é igual a 0,75.
+Ganha aquele que obtiver mais caras ou coroas( no caso dele) em 7 lançamentos.
+Calcule a probabilidade de que ganhe esse jogo?
+
+  x : n° de casos = 4 tentativas para ganhar ou mais
+  n = 7
+  P = 0,75
+
+P(x ≥ 4) = P(x=4)+P(x=5)+P(x=6)+P(x=7)
+P(x ≥ 4) = 
 
 
 
