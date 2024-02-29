@@ -41,6 +41,20 @@ Em média 102 passageiros comparecem para embarque para voo, com desvio padrão 
       -  δ =  = 1,01
 
 =================//=====================//=============================//============================//========================//
+Em uma determinada cidade, 56% dos dias de um ano possuem tempo limpo e ensolarado.
+No mês de abril, quantos dias espera-se que tenham tempo limpo e ensolarado?
+
+Mês de Abril = 30 dias
+X : Nº de dias com tempo limpo = 30 = n 
+Probabilidade de SUCESSO = 0,56 = p
+
+ μ = E(X) = n * p
+ μ = E(X) = 30 * 0,56 
+ μ = E(X) = 16,8
+
+ - Para o mês de Abril espera-se 17 dias de tempo limpo e ensolarado - 
+
+-----------------------//-----------------------------//----------------------------//-----------------
 
   
      
