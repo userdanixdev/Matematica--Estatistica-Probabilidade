@@ -345,7 +345,37 @@ A PROBABILIDADE DE 67,65% É DE QUE ATÉ 2 BEBÊS PREMATUROS NÃO SOBREVIVAM, NO
 -------------------//----------------------------//----------------------//----------------------//
 A probabilidade de um atirador acertar o alvo é de 1/3. Se ele acertar 6x ( seis vezes ) , qual a probabilidade de:
   A) Acertar exatamente 2 tiros?
-      
+        X: N° de acertos =  SUCESSOS = 2 tiros = k 
+        Probabilidade de acertar o alvo: 1/3 = 0,3333 = p
+        N° de ensaios de Bernoulli = 6 = N
+  P(x=2) = (C₆.₂).0,3333)².(1-0,3333)⁶'²
+  P(x=2) = 15 * 0,1111 * 0,6667⁴                                                        (C₆.₂) = n! / k!(n - k)!
+  P(x=2) = 15 * 0,1111 * 0,3291                                                         (C₆.₂) = 6! / 2!(6-2)!
+  P(x=2) = 0,3291                                                                       (C₆.₂) = 6.5.4.3.2! / 2!(4)!
+                                                                                        (C₆.₂) = 6.5.4.3 / 4.3.2.1
+       A PROBABILIDADE DE ACERTAR 2 TIROS É 32,91%                                      (C₆.₂) = 360/24
+                                                                                        (C₆.₂) = 15
+
+        
+B) NÃO ACERTAR O ALVO?
+    p(X=0) = (C₆.₀).0,3333⁰.(1-0,3333)⁶'⁰
+    p(X=0) = 1 * 1 * 0,6667⁶
+    p(X=0) = 1 * 1 * 0,0878
+    p(X=0) = 0,0878 = 8,78 %
+
+  A PROBABILIDADE DE NÃO ACERTAR O ALVO É DE 8,78%
+
+C) DE ACERTAR O ALVO?
+    P(x ≥ 1) = 1 - p(x < 1) 
+    P(x ≥ 1) = 1 - 1-0,0878 
+    P(x ≥ 1) = 0,9122
+    P(x ≥ 1) = 91,22 %
+
+A probabilidade de acertar ao menos um tiro no alvo é de 91,22 %
+----------------------------//-------------------------------//---------------------------------//----------------------------//--------------
+
+  
+    
 
 
 
