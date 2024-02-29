@@ -19,6 +19,31 @@ Se para certo voo essa empresa vender 103 passagens e admitindo que a probabilid
 não comparecer para embarque é de 1%., qual a probabilidade de algum passageiro não conseguir embarcar?
 DETERMINE A MÉDIA, VARIÂNCIA E DESVIO PADRÃO PARA A VARIÁVEL X. INTERPRETE OS RESULTADOS.
 
+  N = 103
+  p = 0,99
+  q = 1-0,99 = 0,01
+  
+      A média:
+    - μ = E(X) = n.p
+    - μ = E(X) = 103*0,99
+    - μ = E(X) = 101,97
+
+Em média 102 passageiros comparecem para embarque para voo, com desvio padrão de 1 passageiro.
+  A variância corresponde ao quadrado.
+
+      A variância:
+     - δ² = Var(X) = n.p.Q(1-p) 
+     - δ² = Var(X) = 103*0,99*(1-0,99)=1,0197
+
+      Desvio Padrão da variável X:
+      -  δ =  = √n.p.(1-p)    
+      -  δ =  = √0,0197
+      -  δ =  = 1,01
+
+
+  
+     
+
 
   
                           
