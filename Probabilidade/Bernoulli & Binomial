@@ -269,8 +269,15 @@ P(x=4) = 25,92%
 
   De 5 homens, 4 tem a probabilidade de 25,92% de chegar aos 65 anos de idade.
 ---------------------------//-------------------------------//----------------------------//-------------------------//
+Um aluno tem 70% de chance de acertar cada questão de uma prova. 
+Sabendo-se que essa prova é composta por 10 questões, qual a probabilidade
+de ele acertar, ao menos, 7 questões para ser aprovado?
 
+X: SUCESSO = p = x ≥ 7 = k
+Probabilidade: 0,70
+N° de ensaios de Bernoulli : 10 = n
 
+( x ≥ 7) = 
 
 
 
