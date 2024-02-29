@@ -313,6 +313,51 @@ P( x ≥ 7 ) = 65%
 
 Mesmo 'chutando' a probabilidade de acertar ao menos 7 questões de 10 é 65%.
 --------------------------//-----------------------------------//-------------------------------//---------------------------//-------------
+Em uma UTI, em média, 5% dos bebês que nascem prematuros não sobrevivem. Se atualmente, há 40 bebês prematuros, qual a probabilidade de que no
+máximo 5% dos bebês não sobrevivam?
+  X: n° de bebês que não sobrevivam = 5% de 40 bebês = 0,05 * 40 = 2 bebês = k 
+  Probabilidade: 0,05
+  Nº de ensaios de Bernoulli = 40
+
+P(X ≥ 2) = P(X=0)+P(X=1)+P(X=2)
+    P(X ≥ 2) = PP(X = 0)
+P(x=0) = (Cnk).p^k(1-p)^n-k
+P(x=0) = (C₄₀.₀).0,05⁰.(1-0,05)⁴⁰-⁰
+P(x=0) = (C₄₀.₀).0,05⁰.(0,95)⁴⁰
+P(x=0) = 1 * 1 * 0,1285
+P(x=0) = 0,1285
+
+P(x=1) = (C₄₀.₁).0,05¹.(1-0,05)⁴⁰-¹
+P(x=1) = 40.0,05¹.(0,95)³⁹
+P(x=1) = 40 * 0,05 * 0,1352
+P(x=1) = 0,2705
+
+P(x=2) = (Cnk).p^k(1-p)^n-k
+P(x=2) = (C₄₀.₂).0,05².(1-0,05)⁴⁰-²
+P(x=2) = 780 * 0,0025 * (0,95)³⁸
+P(x=2) = 780 * 0,0025 * 0,1423
+P(x=2) = 0,2774
+
+P(X ≥ 2) = P(X=0)+P(X=1)+P(X=2)
+P(X ≥ 2) = 0,1285 + 0,2705 + 0,2774 = 0,665 = 67,65%
+
+A PROBABILIDADE DE 67,65% É DE QUE ATÉ 2 BEBÊS PREMATUROS NÃO SOBREVIVAM, NO MÁXIMO.
+-------------------//----------------------------//----------------------//----------------------//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
