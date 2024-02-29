@@ -6,4 +6,11 @@
                                   OU
                           δ² = Var(X) = n.p.(1-p) 
            * Onde q = 1 - p que é a probabilidade de FRACASSO
+
+                              DESVIO PADRÃO:
+                            δ = DP(X) = √n.p.Q 
+                                   OU
+                            δ =  = √n.p.(1-p) 
+
+  
                           
