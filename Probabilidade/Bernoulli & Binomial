@@ -252,7 +252,14 @@ P(x=3)= 3,2 %
 
 A probabilidade de que apareça o número 4 em um dado exatamente 3 vezes é muito pequena, de apenas 3,19 %
 ---------------------------//----------------------------------------//---------------------------------//-------------------
+A probabilidade de que um homem de 45 anos sobreviva mais 20 anos é 0,6. De um grupo de 
+5 homens com 45 anos, qual a probabilidade de que exatamente 4 cheguem aos 65 anos?
 
+X: n° de homens que vivem + 20 anos = 4
+P = 0,6
+Número de ensaios de Bernoulli : 5
+
+P(x=4) =
 
 
 
