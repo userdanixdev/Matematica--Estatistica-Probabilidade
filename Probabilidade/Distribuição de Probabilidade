@@ -89,6 +89,15 @@ P(x>=1) = 1 - P(x=0) = 1 - 0,0081 = 0,9919 = 99,19%   * PEGA O RESTO , PROBABILI
       Sendo assim, não há necessidade de empresa contratar mais atendentes. Sendo que a possibilidade de uma ligação ser 
                               atendida é superior a 99%.
 ---------------------------//-----------------------------------------//----------------------------//---------------------------///---------------
+Um exame do tipo teste é constituido de 20 questões, cada uma com cinco respostas alternativas, dos quais apenas uma correta.
+Se um estudante responde as questões ao acaso, qual a probabilidade que consiga acertar exatamente 10 questões?
+
+Probabilidade de SUCESSO : 1/5 = p = 0,2
+Probabilidade de FRACASSO : 4/5 = q = 0,8
+n° de ensaios de Bernoulli: 20
+
+P(x=10) = (C₂₀₁₀).0,2¹⁰.(1-0,2)²⁰¹⁰
+P(x=10) = (C₂₀₁₀).0,2¹⁰.(1-0,2)²⁰¹⁰
 
 
 
