@@ -1,0 +1,9 @@
+                  MÉDIA, VALOR ESPERADO OU ESPERANÇA:
+                            μ = E(X) = n*p
+
+                               Variância 
+                          δ² = Var(X) = n.p.q 
+                                  OU
+                          δ² = Var(X) = n.p.(1-p) 
+           * Onde q = 1 - p que é a probabilidade de FRACASSO
+                          
