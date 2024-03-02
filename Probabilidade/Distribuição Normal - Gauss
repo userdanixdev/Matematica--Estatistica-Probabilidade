@@ -46,3 +46,32 @@ a 50 minutos ( candidato lento ) ou inferior a 30 minutos ?
 
 
 =======================//=================================//=======================================//================================//===============
+Qual a probabilidade de escolher-se de forma aleatória, numa só tentativa, uma pessoa que tenha renda anual
+entre US$ 4.000 E US$ 7.000, morador de uma cidade. Sendo a renda média desta cidade US$ 5.000 e desvio padrão US$ 1.500?
+
+  P = RENDA MORADOR (X<X<X)
+  μ = 5.000
+  δ = 1.500
+
+        Z = x - μ / δ
+        P(4000 < X < 7000) 
+        P = (4000 - 5000 / 1500)< Z < (7000 - 5000 / 1500)
+        P =  1000 / 1500                P = 2000/1500
+        P =  -0,6666                     P = 1,3333
+        P = 0,2486                        P = 0,4082
+ 
+  P = (-0,67 < Z < 1,33)
+  P = 0,2486 + 0,4082
+  P = 0,6568
+  P = 65,68% de encontrar alguém na cidade aleatoriamente com renda entre 4.000 e 7.000 dólares.
+                              
+
+
+
+
+
+
+
+
+
+
