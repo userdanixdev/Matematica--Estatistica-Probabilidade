@@ -112,6 +112,25 @@ A probabilidade de sortear uma pessoa de seiscentas entre os pesos de 70KG a 80k
 
                       11,12% DE ESTUDANTES COM MAIS DE 72kg
               P * U = 0,1112 * 600 = 67 estudantes com mais de 72kg.
+----------------------//--------------------------//----------------------------//----------------
+Se X é uma variável aleatória tal que X~N(20;49), calcule P(x<30).
+      X~N( μ / δ² )
+      μ  = 20 
+      δ² = 49 = <-- Variância
+      δ = √49 = 7  <-- Desvio Padrão
+
+      Z = X - μ  / δ
+      Z = P(x<30) = 30 - 20 / 7
+      Z = P(x<30) = 10 / 7
+      Z = P(x<30) = 1,4285
+      Z = P(x<30) = 0,5 + 0,4236
+      Z = P(x<30) = 0,9236
+=======================//========================/=========================//============//=============
+
+      
+      
+    
+  
       
                   
       
