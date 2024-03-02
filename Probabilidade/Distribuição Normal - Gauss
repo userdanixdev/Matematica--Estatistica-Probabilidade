@@ -159,11 +159,12 @@ b) Qual é o maior salário correspondente aos 20% dos trabalhadores que ganham 
   P( z < X ) = Z < X - 80 / 5 = 0,20
   P( z < X ) = Z < X - 80 / 5 = 0,50 - 0,20
   P( z < X ) = Z < X - 80 / 5 = 0,30
-  P( z < X ) = Z < X - 80 / 5 = 0,84 ( TABELA PADRONIZADA DIST NORMAL Z )
-  P( z < X ) = Z < X - 80 * 1 = 5 * 0,84
-  P( z < X ) = Z < X - 80 = 4,2
-  P( z < X ) = Z < X = 4,2 + 80
-  P( z < X ) = Z < X = 84,2
+  P( z < X ) = Z < X - 80 / 5 = -0,84 ( TABELA PADRONIZADA DIST NORMAL Z )
+  P( z < X ) = Z < X - 80 * 1 = 5 * -0,84 ( o VALOR PRECISA SER NEGATIVADO, À ESQUERDA DO ZERO )
+  P( z < X ) = Z < X - 80 = -4,2
+  P( z < X ) = Z < X = -4,2 + 80
+  P( z < X ) = Z < X = 75,8 ( MAIOR SALÁRIO SEMANAL DOS QUE GANHAM MENOS )
+-----------------------------/-/-------------------------------------//-----------------------------------//----------------
 
 
 
