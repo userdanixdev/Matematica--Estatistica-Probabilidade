@@ -200,6 +200,26 @@ O mecânico comunicou a um cliente que o carro estará pronto em 50 minutos. Qua
 
       A PROBABILIDADE DE ATRASAR MAIS DE 50 MINUTOS A ENTREGA DO CARRO É DE 26,43%.
 ====================//====================================//===============================================//==========================================//
+Determinado atacadista efetua suas vendas por telefone. Após alguns meses, verificou-se que os pedidos se distribuem normalmente com média de 3.000 pedidos
+e desvio-padrão de 180 pedidos. Qual a probabilidade de que um mês selecionado ao acaso esta empresa
+venda menos de 2700 pedidos?
+
+    x : n° de pedidos : < 2700 pedidos
+    μ : 3.000
+    δ : 180
+    Z < X = X - μ / δ
+    Z < X = 2700 - 3000 / 180
+    Z < X = 2700 - 3000 / 180
+    Z < X = -300 / 180
+    Z < X = -1,66 ~ (-1,67)
+    Z < X = 0,5 - 0,4525 (A²)
+    Z < X = 0,0475 
+
+            A PROBABILIDADE DA EMPRESA VENDER MENOS 2.700 É BAIXA, CERCA DE 4,75%.
+
+==========================//==================================================//====================================//==================
+
+
 
     
 
