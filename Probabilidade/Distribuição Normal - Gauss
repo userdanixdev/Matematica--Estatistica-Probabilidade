@@ -238,7 +238,31 @@ qual a probabilidade de faltar dinheiro para emprestar???
 
       A PROBABILIDADE DE FALTAR DINHEIRO PARA EMPRESTAR SERÁ DE 20,9%
 ---------------------------//-------------------------------------//--------------------------//--------------------------//------------------
+O SCORE de um estudante no vestibular é uma variável com distribuição normal com média de 550 pontos e desvio padrão de 30 pontos.
+Se a admissão em certa faculdade exige um escore mínimo de 575 pontos, qual a probabilidade de um aluno 
+ser admitido nesta faculdade?
 
+    X : escore
+    μ : 550
+    δ : 30
+
+    Z = X - μ / δ 
+    Z >= 575x 
+    Z >= 575 - 550 / 30
+    Z >= 25 / 30
+    Z >= 0,83
+    Z >= 0,2967 ( TAB ) ( A²)
+    Z >= 0,5 - 0,2967 
+    Z >= 0,2033 
+
+                            A PROBABILIDADE DE UM ALUNO SER ADMITIDO NESTA FACULDADE É DE 20,33%
+
+===================================//========================================//=============================================//==============================//
+
+
+  
+
+ 
   
   
 
