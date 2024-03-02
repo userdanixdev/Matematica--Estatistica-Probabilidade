@@ -88,6 +88,20 @@ A probabilidade de sortear uma pessoa de seiscentas entre os pesos de 70KG a 80k
                             ou seja:
               116 estudantes pesam entre 70KG a 80KG
 
+  B) MAIS QUE 63,2KG:
+        P(X > 63,2)
+        P(Z = x - μ / δ )
+        P(Z = 63,2 - 65,3 / 5,5)
+        P(Z = -2,1 / 5,5)
+        P(Z = 0,3818)
+        P(Z = 0,1480)
+        P(X=Z>63,2=0,1480 = 14,80% DE ESTUDANTES COM MAIS DE 63,2KG)
+            0,1480 * 600 = 89 ESTUDANTES COM MAIS DE 63,2kg
+        
+        
+      
+        
+
 
             
         
