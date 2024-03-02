@@ -278,8 +278,47 @@ todos os pedidos desse mês por estar com o estoque esgotado.
                 Provavelmente conseguirá atender a todos os pedidos.
 
 -------------------------//----------------------------------------------//-----------------------------------//
+Uma pesquisa indica que para cada ida no supermercado, uma pessoa gasta em média 45 minutos, com desvio padrão de 12 minutos na loja.
+Esse tempo gasto na loja é normalmente distribuido. Uma pessoa entra na loja.
 
-  d
+a) Qual a probabilidade de que essa pessoa fique na loja entre 24 e 54 minutos?
+
+X : tempo
+μ : 45 minutos
+δ : 12 minutos
+Z = X - μ / δ
+P¹ = (24 < X < 54 )
+P¹ = 24 - 45 / 12 < Z < 54 -45 / 12
+P¹ = -21/12 < Z < 9/12
+P¹ = -1,75 < Z < 0,75
+A²(Tab)=0,4599 < Z < 0,2734 <- A²(Tab)
+P¹ = 0,4599 + 0,2734
+P¹ = 0,7333  ~ 73,33 % de uma pessoa entrar na loja e ficar esse período de tempo.
+
+b)QUAL A PROBABILIDADE DE QUE ESSA PESSOA FIQUE NA LOJA MAIS QUE 39 MINUTOS?
+  P(x>39)
+X : tempo
+μ : 45 minutos
+δ : 12 minutos
+Z = X - μ / δ
+P²(x>39)
+Z = 39 - 45 / 12
+Z = -6/12
+Z = 0,5
+Z = 0,1915(A²TAB)
+A² = 0,1915 + 0,5 = 0,6915
+X = 0,6915 ~ 69,15 %
+                Tem a probabilidade de 69,15% que uma pessoa fique mais 39 minutos
+
+c) Se 200 pessoas entrarem na loja, quantas devem permanecer nela entre 24 e 54 minutos?
+          P¹ * U = 0,7333 * 200 = 146,66
+                ~ 147 pessoas podem permanecem na loja entre esse período
+
+d) Se 200 pessoas entrarem na loja, quantas devem permanecer nela por mais de 39 minutos?
+        P² * U = 0,6915 * 200 = 138,3
+                    ~ 138 pessoas poden permanecer na loja por mais de 39 minutos.
+
+--------------------------//-------------------------------------------//-----------------------------------//------------------------------------
 
  
   
