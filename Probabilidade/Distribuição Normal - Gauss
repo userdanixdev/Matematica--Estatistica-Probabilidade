@@ -165,8 +165,30 @@ b) Qual é o maior salário correspondente aos 20% dos trabalhadores que ganham 
   P( z < X ) = Z < X = -4,2 + 80
   P( z < X ) = Z < X = 75,8 ( MAIOR SALÁRIO SEMANAL DOS QUE GANHAM MENOS )
 -----------------------------/-/-------------------------------------//-----------------------------------//----------------
+Em uma escola militar as notas de um exame ( prova integrada ) são normalmente distribuidas com média de 72 pontos e desvio padrão de 9.
+O professor atribuirá conceito A aos 8% dos melhores alunos. Qual a menor nota ( valor inteiro ) que o aluno pode tirar de modo a garantir
+um conceito A?
 
+  x : NOTA
+  μ : 72
+  δ : 9
+            P(Z < X) =  X - μ / δ
+            P(Z > X) =  X - 72 / 9 
+            P(Z > X) =  X - 72 / 9 = 0,08
+            P(Z > X) =  X - 72 / 9 = 0,05 - 0,08
+            P(Z > X) =  X - 72 / 9 = 0,42
+            P(Z > X) =  X - 72 / 9 = 1,41 ( tabela ) ( distribuição de igualdade da equação )
+            P(Z > X) =  X - 72 = 12,69
+            P(Z > X) =  X = 72 + 12,69
+            P(Z > X) =  X = 84,69 ~ 85 pontos
 
+==============//=======================================//==========================================//====================================///////////////////
+
+  
+  
+  
+  
+   
 
   
 
