@@ -107,11 +107,11 @@ A probabilidade de sortear uma pessoa de seiscentas entre os pesos de 70KG a 80k
         P(X > Z) = 6,7 / 5,5
         P(X > Z) = 1,218 ± 1,22
         P(X > Z) = 0,3888
-        P(X > Z > 72) = 0,5 - 0,3849 
-        P(X > Z > 72) = (0,1151)
+        P(X > Z > 72) = 0,5 - 0,3888 
+        P(X > Z > 72) = (0,1112)
 
-                      11,51% DE ESTUDANTES COM MAIS DE 72kg
-              P * U = 0,1151 * 600 = 69 estudantes com mais de 72kg.
+                      11,12% DE ESTUDANTES COM MAIS DE 72kg
+              P * U = 0,1112 * 600 = 67 estudantes com mais de 72kg.
       
                   
       
