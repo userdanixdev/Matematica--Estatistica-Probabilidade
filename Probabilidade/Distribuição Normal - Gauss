@@ -183,8 +183,29 @@ um conceito A?
             P(Z > X) =  X = 84,69 ~ 85 pontos
 
 ==============//=======================================//==========================================//====================================///////////////////
+O tempo necessário em uma oficina para o conserto da transmissão de um tipo de carro segue distribuição normal com média de 45 minutos e desvio-padrão de 8 minutos.
+O mecânico comunicou a um cliente que o carro estará pronto em 50 minutos. Qual a probabilidade do mecânico atrasar o serviço?
 
-  
+      x = p > 50
+      μ = 45 
+      δ = 8 
+        
+      P(Z > X) =  X - μ / δ
+      P(Z > X) =  50 - 45 / 8
+      P(Z > X) =  5 / 8
+      P(Z > X) =  0,625 ~ 0,63 
+      P(Z > X) =  0,2357 ( valor da tabela )
+      P(Z > X) =  0,5 - 0,2357
+      P(Z > X) =  0,2643 
+
+      A PROBABILIDADE DE ATRASAR MAIS DE 50 MINUTOS A ENTREGA DO CARRO É DE 26,43%.
+====================//====================================//===============================================//==========================================//
+
+    
+
+        
+        
+      
   
   
   
