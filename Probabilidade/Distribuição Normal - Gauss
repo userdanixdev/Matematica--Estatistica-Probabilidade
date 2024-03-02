@@ -258,7 +258,26 @@ ser admitido nesta faculdade?
                             A PROBABILIDADE DE UM ALUNO SER ADMITIDO NESTA FACULDADE É DE 20,33%
 
 ===================================//========================================//=============================================//==============================//
+As vendas de determinado produto tem apresentado distribuição normal com média de 600 unidades e desvio padrão de 40 unidades.
+Se a empresa decide fabricar 700 unidades naquele mesmo mês, qual a probabilidade dela não poder atender
+todos os pedidos desse mês por estar com o estoque esgotado.
 
+      x: n° de unidades
+      μ : 600
+      δ : 40
+  P(700<x)
+    Z =  X - μ / δ 
+    Z =  700 - 600 / 40 
+    Z =  100 / 40
+    Z =  2,5
+    Z =  0,4938 ( tabela - área )
+    Z =  0,5 - 0,4938 
+    Z =  0,0062
+
+      A probabilidade de não poder atender é bem baixa: 0,62%. Menos de 1 %.
+                Provavelmente conseguirá atender a todos os pedidos.
+
+-------------------------//----------------------------------------------//-----------------------------------//
 
   
 
