@@ -80,6 +80,15 @@ entre US$ 4.000 E US$ 7.000, morador de uma cidade. Sendo a renda média desta c
             P(Z = 70) z = (4,7 / 5,5)< x < (14,7 / 5,5)
             P(Z = 70) z = (0,8545) < x < (2,6727)
             P(Z = 70) z = 0,3023 < X < 0,4962
+
+            P = 0,4962 - 0,3023 = 0,1939 = 19,39%
+A probabilidade de sortear uma pessoa de seiscentas entre os pesos de 70KG a 80kg é de 19,39%
+    Mas a pergunta é determinar o número de estudantes :
+            P * união (U): 0,1939 * 600 = 116,34 pessoas
+                            ou seja:
+              116 estudantes pesam entre 70KG a 80KG
+
+
             
         
       
