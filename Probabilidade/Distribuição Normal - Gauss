@@ -319,6 +319,38 @@ d) Se 200 pessoas entrarem na loja, quantas devem permanecer nela por mais de 39
                     ~ 138 pessoas poden permanecer na loja por mais de 39 minutos.
 
 --------------------------//-------------------------------------------//-----------------------------------//------------------------------------
+As pontuações para um teste de serviço civil são normalmente distribuídas com uma média de 75 pontos
+e um desvio padrão de 6,5. Para ser adequado ao emprego de serviço civil, você deve ter pontuação dentro dos 5%
+primeiros colocados. Qual é a menor pontuação que você pode obter e ainda assim ser adequado ao emprego?
+Considere que a pontuação é um valor inteiro.
+    x : pontos
+    δ : 6,5 pontos - Desvio padrão
+    μ : 75 pontos = Média
+
+    |----------------------|----|
+                             5%
+
+          Z > X - μ / δ
+          Z > X - 75 / 6,5 = 0,05
+          Z > X - 75 / 6,5 = 0,5 - 0,05
+          Z > X - 75 / 6,5 = 0,45 <-A²(tab)
+          Z > X - 75 / 6,5 = 0,45 <-A²(tab)
+
+1,64 + 1,65 / 2 = Média de Área²( Tabela Z)
+1,645 = Média de Área²
+
+          
+          Z > X - 75 / 6,5 = 1,645
+            Z > X - 75 = 10,6925
+            Z > X  = 10,6925 + 75
+            Z > X  = 10,6925 + 75
+              Z > X  = 85,6925
+                 ~ 86 pontos
+
+----------------------//-------------------------------------//--------------------------------//-------------------------------//
+
+            
+                    
 
  
   
