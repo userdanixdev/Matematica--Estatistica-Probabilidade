@@ -126,7 +126,66 @@ Se X é uma variável aleatória tal que X~N(20;49), calcule P(x<30).
       Z = P(x<30) = 0,5 + 0,4236
       Z = P(x<30) = 0,9236
 =======================//========================/=========================//============//=============
+O salário semanal dos operários de construção civil de certo país é distribuido normalmente em torno
+da média de $ 80, com desvio padrão de $ 5.
 
+a) Qual é o valor do salário para escolhermos 10% dos operários com maiores remunerações?
+      X : salário
+      μ  = 80    <-- Média
+      δ = 5      <-- Desvio Padrão
+
+    ****** DESAFIO: temos a probabilidade e não temos o valor de X. ******
+
+    |----------------|--| <--10%
+          P(x > z ) = 10% = 0,10
+          P(Z > X) =  X - μ / δ
+          P(Z > X) = X - 80  / 5 = 0,10
+          P(Z > X) = X - 80  / 5 = 0,5 - 0,10
+          P(Z > X) = X - 80  / 5 = 0,40
+          P(Z > X) = X - 80  / 5 = 1,28 ( TABELA DISTRIBUIÇÃO NORMAL )
+          P(Z > X) = X - 80 * 1 = 5 * 1,28
+          P(Z > X) = X - 80 = 6,4
+          P(Z > X) = x = 80 + 6,4
+          P(Z > X) = x = 86,4
+  
+
+b) Qual é o maior salário correspondente aos 20% dos trabalhadores que ganham menos?
+    |----|------------------|
+     20%=b
+
+  P( x < X ) = 0,20
+  P( z < X ) = Z < X - μ  / δ
+  P( z < X ) = Z < X - 80 / 5
+  P( z < X ) = Z < X - 80 / 5 = 0,20
+  P( z < X ) = Z < X - 80 / 5 = 0,50 - 0,20
+  P( z < X ) = Z < X - 80 / 5 = 0,30
+  P( z < X ) = Z < X - 80 / 5 = 0,84 ( TABELA PADRONIZADA DIST NORMAL Z )
+  P( z < X ) = Z < X - 80 * 1 = 5 * 0,84
+  P( z < X ) = Z < X - 80 = 4,2
+  P( z < X ) = Z < X  = 4,2 + 80
+  P( z < X ) = Z < X  = 84,2
+
+
+
+  
+
+          
+    
+    
+          
+  
+          
+          
+        
+
+
+
+    
+        
+          
+
+      
+    
       
       
     
