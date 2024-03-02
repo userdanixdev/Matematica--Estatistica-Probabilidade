@@ -66,7 +66,23 @@ entre US$ 4.000 E US$ 7.000, morador de uma cidade. Sendo a renda média desta c
   P = 65,68% de encontrar alguém na cidade aleatoriamente com renda entre 4.000 e 7.000 dólares.
                               
 -----------------------//---------------------------------//-----------------------------------//-------------------//
+  Os pesos de 600 estudantes são normalmente distribuídos com média de 65,3 KG e desvio-padrão 5,5 KG.
+  Determine o número de estudantes que pesam:
+  A ) ENTRE 70KG E 80KG:  
+        X : peso
+        μ = 65,3
+        δ = 5,5
 
+            P(70 < x <80):
+            P(Z = x - μ / δ )
+            P(Z = 70) z = (70 - 65,3 / 5,5)< x < (80 - 65,3 / 5,5)
+            P(Z = 70) z = (70 - 65,3 / 5,5)< x < (80 - 65,3 / 5,5)
+            P(Z = 70) z = (4,7 / 5,5)< x < (14,7 / 5,5)
+            P(Z = 70) z = (0,8545) < x < (2,6727)
+            P(Z = 70) z = 0,3023 < X < 0,4962
+            
+        
+      
 
 
 
