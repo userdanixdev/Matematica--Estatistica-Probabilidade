@@ -218,6 +218,29 @@ venda menos de 2700 pedidos?
             A PROBABILIDADE DA EMPRESA VENDER MENOS 2.700 É BAIXA, CERCA DE 4,75%.
 
 ==========================//==================================================//====================================//==================
+Durante o mês de Dezembro aumenta a procura por concessão de crédito para pessoa física. De acordo com os dados históricos
+é possível verificar que a procura segue uma DIST aprox NORMAL com média de 12,8 milhões e desvio-padrão de 15 milhões.
+Se as instituições de crédito reservarem 25 milhões para concessão de crédito,
+qual a probabilidade de faltar dinheiro para emprestar???
+
+  X : milhões de unidades monetárias
+  μ : 12,8
+  δ : 15
+
+    Z = X - μ / δ 
+  Z > X = 25 - 12,8 / 15
+  Z > X = 25 - 12,8 / 15
+  Z > X = 12,2 / 15
+  Z > X = 0,813
+  Z > X = 0,2910 ( TAB )
+  Z > X = 0,5 - 0,2910
+  Z > X = 0,209
+
+      A PROBABILIDADE DE FALTAR DINHEIRO PARA EMPRESTAR SERÁ DE 20,9%
+---------------------------//-------------------------------------//--------------------------//--------------------------//------------------
+
+  
+  
 
 
 
