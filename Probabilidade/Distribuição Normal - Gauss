@@ -348,9 +348,36 @@ Considere que a pontuação é um valor inteiro.
                  ~ 86 pontos
 
 ----------------------//-------------------------------------//--------------------------------//-------------------------------//
+Em uma amostra escolhida aleatoriamente de homens com idade entre 35 e 44 anos. 
+A média do nível de colesterol total era de 210mg/dl.
+Suponha que os níveis totais de colesterol tem seu desvio padrão igual a 38,6 mg/dl.
+Encontre o nível total de colesterol mais alto que um homem nessa faixa etária pode ter 
+dentre os 1% dos homens com menores níveis de colesterol.
 
-            
-                    
+      X : Nível de Colesterol
+      μ : 210
+      δ : 38,6
+
+      |--|----------------------------------------|
+       1%
+    
+P( x < Z ) = x - μ / δ
+P( x < Z ) = X - 210 / 38,6 = 0,01
+0,5-0,01 = 0,49 <- A²
+A²(tab) = -2,33
+
+P( x < Z ) = X - 210 / 38,6 = 2,33 ( Igualar equação )
+P( x < Z ) = X - 210 = - 89,938
+P( x < Z ) = X = - 89,938 + 210
+P( x < Z ) = X = - 89,938 + 210
+P( x < Z ) = X = 120,062
+
+          O maior colesterol do grupo de homens entre 35 e 44 anos é de 120 mg/dl.
+
+=======================//=====================================//================================//======================
+
+
+
 
  
   
