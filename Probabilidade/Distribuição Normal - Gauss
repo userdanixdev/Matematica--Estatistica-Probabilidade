@@ -375,7 +375,33 @@ P( x < Z ) = X = 120,062
           O maior colesterol do grupo de homens entre 35 e 44 anos é de 120 mg/dl.
 
 =======================//=====================================//================================//======================
+Você vende uma marca de pneus de automóveis que tem uma expectativa de vida que é normalmente distribuida com uma vida média de 30.000 milhas
+e um desvio padrão de 2.500 milhas. Você quer dar uma garantia de troca grátis que não durem muito.
+Como você poderia honrar sua garantia se você está disposto a troca 10% dos pneus que vende?
 
+  X : Durabilidade em milhas
+  μ : 30.000
+  δ : 2.500
+  Mín|-----|----------------------------------|Máx
+       10%
+
+P(Z < X - μ / δ)
+P(Z < X - 30.000 / 2.500)
+P(Z < X - 30.000 / 2.500) = 0,10
+P(Z < X - 30.000 / 2.500) = 0,50 - 0,10 
+P(Z < X - 30.000 / 2.500) = 0,40 ( A²(tab))
+P(Z < X - 30.000 / 2.500) = -1,28 (A²(tab))
+P(Z < X) X - 30.000 / 2.500) = -1,28 (A²(tab))
+P(Z < X) X - 30.000 = -3.200
+P(Z < X) X = -3.200 + 30.000
+P(Z < X) X = -3.200 + 30.000
+P(Z < X) X = 26.800 milhas
+
+                  26.800 milhas está a baixo da vida média dos pneus, sendo assim terá que trocá-los.
+
+==================================//===========================================//==========================================//========================
+
+                        
 
 
 
