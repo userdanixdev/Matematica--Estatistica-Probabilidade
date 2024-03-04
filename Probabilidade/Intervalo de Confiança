@@ -34,7 +34,44 @@ PARA A VERDADEIRA DURAÇÃO MÉDIA DA PEÇA COM UM NÍVEL DE 95% DE CONFIANÇA.
 
           P(499,02 ≤ μ ≤ 500,98) = 0,95
              IC = [499,02 ; 500,98 ]
+
 =====================//==================================//==========================//=====================//====================
+A DURAÇÃO DA VIDA DE UMA PEÇA DE EQUIPAMENTO É TAL QUE O DESVIO PADRÃO POPULACIONAL É IGUAL A 5 HORAS.
+FORAM AMOSTRADAS ALEATORIAMENTE 100 DESSAS PEÇAS, OBTENDO-SE MÉDIA DE 500 HORAS. CONSTRUIR UM INTERVALO DE CONFIANÇA
+PARA A VERDADEIRA DURAÇÃO MÉDIA DA PEÇA COM UM NÍVEL DE 95% DE CONFIANÇA.
+(suponha que tenhamos uma população de 1000 peças)
+
+  δ :: 5 ::
+  n :: 100  :: tamanho da amostra :: 
+  x :: 500  :: Duração média da amostra :: 
+  μ :: ???  :: Verdadeira população média ::
+  γ :: 95%  :: Nível de confiança :: 0,95 / 2 = 0,475 <-Tabela.Dist.Normal Padrão <-área-> Z = 1,96 
+  α :: 5%   :: Nível de significância :: 
+  N :: 1000 :: Tamanho da População :: 
+
+    n/N > 0,05
+    100/1000 = 0,10 
+    n/N = 0,10 > 0,05 <-- Utilizar o 'N'.
+
+                    IC = X ± Z . δ/√n.(√N-n/√N-1)
+                    IC = 500 ± 1,96 . 5/√100.(√1000-100/√1000-1)
+                    IC = 500 ± 1,96 . 5/10.(√900/√999)
+                    IC = 500 ± 1,96 . 0,5 . 30/31,60
+                    IC = 500 ± 1,96 . 0,5 . 0,94
+                    IC = 500 ± 1,96 . 0,47
+                    IC = 500 ± 0,93
+                    IC = 500 + 0,93 = 500,93
+                    IC₂= 500 + 0,93 = 499,07
+
+                    P(499,07 ≤ μ ≤ 500,93) = 0,95
+                    IC = [ 499,07 ; 500,93 ]
+
+==================================//========================================//========================//==============
+
+                    
+  
+
+
 
 
                 
