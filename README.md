@@ -1,14 +1,25 @@
-# Matematica--Estatistica-Probabilidade
-Conceitos e exemplos aplicados de Estatística e Probabilidade
-###
+# Matemática -- Estatística & Probabilidade
+_Conceitos e exemplos aplicados de Estatística e Probabilidade_:
+#
 * Probabilidade
-* Distribuição
-* Distribuição Binomial
-* Fatorial
+
+      * Bernoulli & Binomial
+      * Distribuição de Gauss
+      * Probabilidade Condicional
+  #
+      
+* Distribuição em Probabilidade
+#
 * Análise Combinatória
-* 5
-* 5
-* 
+
+      * Combinação Simples
+      * Permutação
+      * Princípo Fundamental da Contagem
+  #
+* Fatorial
+
+  #
+
 
 
   
