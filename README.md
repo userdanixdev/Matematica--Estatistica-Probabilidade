@@ -21,6 +21,9 @@ _Conceitos e exemplos aplicados de Estatística e Probabilidade_:
   #
 * Esperança, Variância e Desvio Padrão
   #
+* Intervalo de Confiança
+  #
+    
 
 
   
