@@ -373,11 +373,28 @@ C) DE ACERTAR O ALVO?
 
 A probabilidade de acertar ao menos um tiro no alvo é de 91,22 %
 ----------------------------//-------------------------------//---------------------------------//----------------------------//--------------
+SUPONHA QUE A PROBABILIDADE DE OCORRER VÍTIMA FATAL EM UM ACIDENTE EM UMA DETERMINADA ESTRADA É DE 38%. SE, EM UM CERTO DIA, OCORREM 11
+ACIDENTES. QUAL A PROBABILIDADE DE OCORRER 2 ACIDENTES COM VÍTIMAS FATAIS?
 
-  
-    
+p(u) :: 0,38 :: 
+Nº de ensaios de Bernoulli :: 11 acidentes :: n :: 
+X :: Acidentes :: 2 acidentes :: k
 
+P(x=2)(C.).p^k.(1-p)^n-k)
+P(x=2)(C₁₁.₂).0,38².(1-0,38)¹¹-²                        C₁₁.₂ = 11! / 2!(11-2)!
+P(x=2) 55 * 0,1444 * 0,0135                             C₁₁.₂ = 11.10.9.8.7.6.5.4.3.2! / 2! (9)!
+P(x=2) 0,107511                                         C₁₁.₂ = 19.958.400 / 362.880
+                                                        C₁₁.₂ = 55
 
+                        A PROBABILIDADE É DE 10,75% DE OCORRER 2 ACIDENTES COM VÍTIMAS FATAIS
+
+b)  QUAL A PROBABILIDADE DE OCORRER PELO MENOS OITO ACIDENTES SEM VÍTIMAS FATAIS:
+        
+P(x≥8)                                        P :: 0,62 ( Probabilidade muda de sucesso para 62% sem vítima )
+P(x≥8) = P(x=8)+P(x=9)+P(x=10)+P(x=11)
+
+P(x=8)(C.).p^k.(1-p)^n-k)
+P(x=8)(C₁₁.₈).0,38
 
 
 
