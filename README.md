@@ -19,7 +19,8 @@ _Conceitos e exemplos aplicados de Estatística e Probabilidade_:
 * Fatorial
 
   #
-
+* Esperança, Variância e Desvio Padrão
+  #
 
 
   
