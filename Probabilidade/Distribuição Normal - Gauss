@@ -491,7 +491,53 @@ SE UMA VARIÁVEL ALEATÓRIA X TÊM DISTRIBUIÇÃO NORMAL COM MÉDIA 100 E VARIÂ
 
           A PROBABILIDADE DE QUE X SEJA MENOR DO QUE 101,6 É ALTA COM TAXA DE 78,8 %
 ---------------------------//----------------------------------------//--------------------------------------//-------------------------------------/
+UMA FÁBRICA DE CARROS SABE-SE QUE OS MOTORES DE SUA FABRICAÇÃO TEM DURAÇÃO NORMAL COM MÉDIA DE 150.000 KM E O DESVIO PADRÃO DE 5.000KM.
+QUAL A PROBABILIDADE DE QUE UM CARRO ESCOLHIDO AO ACASO, TENHA O MOTOR QUE DURE:
+  A) MENOS DE 170.000KM?
+        P(X<170.000)
+        X ~ N(150.000;5.000)  <-- variância: 25.000
 
+    PADRONIZAÇÃO:
+          P(Z<170.000 - 150.000 / 5000)
+          P(Z<20.000 / 5000)
+          P(Z<4)
+          P(Z<0,4999) <-- ÁREA
+          P(Z<0,5 + 0,4999)
+          P(Z<0,9999)<<---- 99% QUE DURE MENOS DE 170.000KM
+
+    B) QUAL A PROBABILIDADE DE QUE UM CARRO ESCOLHIDO AO ACASO, TENHA O MOTOR QUE DURE ENTRE 140.000 A 165.000KM ?
+
+          P(140.000 ≤ X ≤ 165.000)
+          P(Z=X - μ / δ ≤ X ≤ 165.000)
+          P(Z=140.0000 - 150.000 / 5  ≤ X ≤ 165.000 - 150.000 / 5)
+          P(Z=10.000 / 5  ≤ X ≤ 15.000 / 5)
+          P(Z=(-2.000) ≤ X ≤ 3.000)
+          P(Z=(-2 ≤ X ≤ 3)
+          P(Z=(0,4772 ≤ X ≤ 0,4987) <<----- ÁREAS TABELADAS <-------
+          P(Z=0,4772 + 0,4987 = 0,9750 <-- 97,5% < PROBABILIDADE ALTA DE 97,5% PARA QUE O MOTO DURE NESSA FAIXA >
+
+    c) SE A FÁBRICA SUBSTITUIR O MOTOR COM DURAÇÃO INFERIOR DA GARANTIA. QUAL DEVE SER A GARANTIA PARA PORCENTAGEM DE MOTORES SUBSTITUIDOS
+SEJA INFERIOR A 0,02(2%).
+
+                                                        |0,48|²<-ÁREA
+                        |--------------------------------------------------|------|
+                        |------------------------|0|-----------------------|--2%--|
+
+          X = 0,5 - 0,02 = 0,48 <<- ÁREA
+          P(x≤x)=2,06
+          P(x≤x)= x - μ / δ
+          P(x≤x)= x - 150.000 / 5.000 = 2.06
+          P(x≤x)= x - 150.000 / 5.000 = 2.06 <-- Propriedade matemática igualitária
+          P(x≤x)= x - 150.000 = 10.300
+          P(x≤x)= x = 10.300 + 150.000
+          P(x≤x)= x = 160.300 km
+
+  ** A GARANTIA SERÁ MANTIDA COM MOTORES DE 160.300 KM ***
+-------------------------//-----------------------------------//---------------------------------------//--------------------------//---------
+
+                  
+
+  
     
 
 
