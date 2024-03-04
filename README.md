@@ -6,6 +6,8 @@ Conceitos e exemplos aplicados de Estatística e Probabilidade
 * Distribuição Binomial
 * Fatorial
 * Análise Combinatória
+* 5
+* 5
 * 
 
 
