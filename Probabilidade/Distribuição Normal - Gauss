@@ -441,7 +441,35 @@ QUAL A PROBABILIDADE DO MECÂNICO ATRASAR O SERVIÇO?
 
                 A PROBABILIDADE DE ATRASAR A ENTREGA DO SERVIÇO EM MAIS DE 50 MINUTOS É DE 26,43%
 ---------------------------//------------------------------------------//----------------------------------------//----------------------------------//
+UMA MÁQUINA AUTOMÁTICA ENCHE LATAS BASEADA NO PESO BRUTO DELAS. O PESO BRUTO DELAS COM DISTRIBUIÇÃO NORMAL É DE 'm = 1000g' e 's = 20g'.
+AS LATAS TEM PESO DISTRIBUIDO NORMALMENTE COM 'M=90G' E 'S=10G'. 
 
+QUAL A PROBABILIDADE DE QUE UMA LATA TENHA DE PESO LÍQUIDO MAIS DE 870G?
+
+  Média do peso líquido: 
+    μ(bruto) - μ(lata) 
+      1000g - 90 g                                                               X : peso
+        910 g = μ                                                                μ : 910 g
+                                                                                 δ : 22,36
+        Desvio Padrão:
+    √δ²(bruto) + √δ²(lata)
+        √20² + √10²
+       √400g + √100g
+          √500g
+          22,36 = δ
+
+                                            Z = X - μ / δ
+A PROBABILIDADE DE QUE                      Z = 870 - 910 / 22,36
+   TENHA MAIS DE 870G                       Z = 870 - 910 / 22,36
+É MUITO ALTA COM UMA TAXA                   Z = -40/22,36
+      DE 96,25%                             Z = 1,78
+                                            Z = 0,9625  
+
+
+B) QUAL A PROBABILIDADE DE QUE 
+
+
+  
   
 
 
