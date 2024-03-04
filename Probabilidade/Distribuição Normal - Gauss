@@ -466,10 +466,21 @@ A PROBABILIDADE DE QUE                      Z = 870 - 910 / 22,36
                                             Z = 0,9625  
 
 
-B) QUAL A PROBABILIDADE DE QUE 
+B) QUAL A PROBABILIDADE DE QUE UMA LATA TENHA DE PESO LÍQUIDO ENTRE 860G A 920G?
+
+                 860 < X < 920                                        
+  z = 860-910/22,36 < X <  920 -910/22,36                                                
+        Z = -50/22,36  < X < 10/22,36 
+            z = -2,23  <  X < 0,44
+                área tabelada:
+              Z = 0,9871 - 0,3300
+                  Z = 0,6571
 
 
-  
+  PORTANTO A PROBABILIDADE DE QUE SE TENHA ESSE PESO
+                   É DE 65,71 %
+=============================//====================================//======================================//============================
+
   
 
 
