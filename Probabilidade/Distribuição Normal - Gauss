@@ -420,7 +420,29 @@ A GARANTIR UM CONCEITO 'A'?
     ( Z ) = X = 84,69
         ~ 85 pontos 
 --------------------------//------------------------------------------//---------------------------------------------//--------------------------------//
+O TEMPO NECESSÁRIO EM UMA OFICINA PARA O CONSERTO DA TRANSMISSÃO DE UM TIPO DE CARRO SEGUE DISTRIBUIÇÃO NORMAL COM MÉDIA DE 45 MINUTOS.
+E DESVIO PADRÃO DE 8 MINUTOS. O MECÂNICO COMUNICOU A UM CLIENTE QUE O CARRO ESTARÁ PRONTO EM 50 MINUTOS.
+QUAL A PROBABILIDADE DO MECÂNICO ATRASAR O SERVIÇO?
 
+  X(P) > 50
+  μ : Média :: 45 minutos
+  δ : Desvio Padrão :: 8 minutos 
+
+            Z : X - μ / δ
+            Z : 50 - 45 / 8 
+            Z : 5 / 8
+            Z = 0,625 ~ 0,63 
+            Z = 0,2357 ( ÁREA - TABELADA )
+    P(Z > X)
+    P(Z > 0,2357)
+    P(Z > 0,5 - 0,2357)
+    P(Z > 0,5 - 0,2643)
+          26,43%
+
+                A PROBABILIDADE DE ATRASAR A ENTREGA DO SERVIÇO EM MAIS DE 50 MINUTOS É DE 26,43%
+---------------------------//------------------------------------------//----------------------------------------//----------------------------------//
+
+  
 
 
 
