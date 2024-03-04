@@ -11,4 +11,37 @@ de Z:
 Obs: N :: Tamanho da população
      n :: Tamanho da amostra
 ------------------------//--------------------------//------------------------//------------------------/
+A DURAÇÃO DA VIDA DE UMA PEÇA DE EQUIPAMENTO É TAL QUE O DESVIO PADRÃO POPULACIONAL É IGUAL A 5 HORAS.
+FORAM AMOSTRADAS ALEATORIAMENTE 100 DESSAS PEÇAS, OBTENDO-SE MÉDIA DE 500 HORAS. CONSTRUIR UM INTERVALO DE CONFIANÇA
+PARA A VERDADEIRA DURAÇÃO MÉDIA DA PEÇA COM UM NÍVEL DE 95% DE CONFIANÇA.
 
+  δ :: 5 ::
+  n :: 100 :: tamanho da amostra :: 
+  x :: 500 :: Duração média da amostra :: 
+  μ :: ??? :: Verdadeira população média 
+  γ :: 95% :: Nível de confiança :: 0,95 / 2 = 0,475 <-Tabela.Dist.Normal Padrão <-área-> Z = 1,96 
+  α :: 5%  :: Nível de significância :: 
+  N :: ??? :: Tamanho da População :: 
+
+                IC = X ± Z . δ/√n
+                IC = 500 ± 1,96 * 5/√100
+                IC = 500 ± 1,96 * 5/√100
+                IC = 500 ± 1,96 * 5/10
+                IC = 500 ± 1,96 * 0,5
+                IC = 500 ± 0,98
+                IC = 500 + 0,98 = 500,98
+                IC₂= 500 - 0,98 = 499,02
+
+          P(499,02 ≤ μ ≤ 500,98) = 0,95
+             IC = [499,02 ; 500,98 ]
+=====================//==================================//==========================//=====================//====================
+
+
+                
+      
+            
+
+
+
+  
+  
