@@ -1,0 +1,14 @@
+                  > (IC) < - Intervalo de Confiança :
+
+  Para populações infinitas, a variável normal padrão de μ será denominado Z:
+                        Z = X - μ / (δ/√n)
+  Para população finitas, deve-se acrescentar o fator de correção populacional ao cálculo 
+de Z:
+                  Z = X - μ / (δ/√n).(√N-n/√N-1)
+        O fator de correção deve ser usado sempre que tivermos:
+                            n / N > 0,05
+
+Obs: N :: Tamanho da população
+     n :: Tamanho da amostra
+------------------------//--------------------------//------------------------//------------------------/
+
