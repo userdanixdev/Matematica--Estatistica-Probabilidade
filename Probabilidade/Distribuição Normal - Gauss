@@ -480,8 +480,21 @@ B) QUAL A PROBABILIDADE DE QUE UMA LATA TENHA DE PESO LÍQUIDO ENTRE 860G A 920G
   PORTANTO A PROBABILIDADE DE QUE SE TENHA ESSE PESO
                    É DE 65,71 %
 =============================//====================================//======================================//============================
+SE UMA VARIÁVEL ALEATÓRIA X TÊM DISTRIBUIÇÃO NORMAL COM MÉDIA 100 E VARIÂNCIA 4, ENTÃO A PROBABILIDADE DE QUE X SEJA MENOR DO QUE 101,6
+É:
+  μ : 100                              P(X<Z)= X - μ / δ                                                  
+  δ² : 4 : √4 = 2                      P(X<Z)= 101,6 - 100 / 2  
+  X : 101,6                            P(X<Z)= 1,6 / 2
+                                       P(X<Z)= 0,8 
+                                       P(X<Z)= (-0,8)
+                                       P(X<Z)= 0,7881 ( AREA - TAB )
 
-  
+          A PROBABILIDADE DE QUE X SEJA MENOR DO QUE 101,6 É ALTA COM TAXA DE 78,8 %
+---------------------------//----------------------------------------//--------------------------------------//-------------------------------------/
+
+    
+
+
 
 
 
