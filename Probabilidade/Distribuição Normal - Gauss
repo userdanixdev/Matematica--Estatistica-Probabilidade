@@ -400,6 +400,29 @@ P(Z < X) X = 26.800 milhas
                   26.800 milhas está a baixo da vida média dos pneus, sendo assim terá que trocá-los.
 
 ==================================//===========================================//==========================================//========================
+EM UMA ESCOLHA AS NOTAS DE UM EXAME SÃO NORMALMENTE DISTRIBUIDAS COM MÉDIA DE 72 PONTOS E DESVIO PADRÃO DE 9.
+O PROFESSOR ATRIBUIRÁ CONCEITO 'A' AOS 8% DOS MELHORES ALUNOS. QUAL A MENOR NOTA ( VALOR INTEIRO ) QUE O ALUNO PODE TIRAR DE MODO 
+A GARANTIR UM CONCEITO 'A'?
+
+      X : NOTA
+      μ : 72
+      δ : 9 
+
+    Z = X - μ / δ
+    Z = X - 72 / 9
+    Z = X - 72 / 9 = 0,08  
+    Z = X - 72 / 9 = 0,5 - 0,08
+    Z = X - 72 / 9 = 0,42
+    Z = X - 72 / 9 = 1,41 ( área - Tabela )
+            ** realização propriedade matemática **
+    Z = X - 72 = 12,69
+    ( Z ) = X = 12,69 + 72
+    ( Z ) = X = 84,69
+        ~ 85 pontos 
+--------------------------//------------------------------------------//---------------------------------------------//--------------------------------//
+
+
+
 
                         
 
