@@ -534,6 +534,45 @@ SEJA INFERIOR A 0,02(2%).
 
   ** A GARANTIA SERÁ MANTIDA COM MOTORES DE 160.300 KM ***
 -------------------------//-----------------------------------//---------------------------------------//--------------------------//---------
+UMA EMPRESA DE PNEUS DESENVOLVEU UM NOVO MODELO PARA VENDA. COMO O PRODUTO É NOVO, OS FABRICANTES QUEREM TER A CERTEZA QUE VÃO OFERECER
+UMA GARANTIA ADEQUADA À VIDA ÚTIL DO PNEU EM TERMOS DE QUILOMETRAGEM RODADA. OS GERENTES QUEREM,ENTÃO, INFORMAÇÕES SOBRE
+A PROBABILIDADE DE DURAÇÃO DO PNEU.
+TESTES DE ESTRADA LEVARAM OS ENGENHEIROS A ESTIMAR A QUILOMETRAGEM MÉDIA EM 36.500 E DESVIO PADRÃO EM 5.000.
+QUAL A PROBABILIDADE DE UM PNEU DURAR MAIS DE 40.000 KM?
+
+         Z = X - μ / δ 
+  Z = 40.000 - 36.500 / 5.000
+  Z = 3.500 / 5.000 
+  Z = 0,70
+  Z = 0,2580 (ÁREA - TABELA DISTRIBUIÇÃO NORMAL PADRONIZADA )
+
+    P(Z ≥ 40.000) = 0,50 - 0,2580 = 0,2420 <-- 24,20%
+
+  PODEMOS CONCLUIR QUE A PROBABILIDADE DE OS PNEUS EXCEDEREM A 40.000 KM É DE 24,2%.
+
+B) OS GERENTES ACHAM 24,2% É UMA PORCENTAGEM ALTA. DECIDEM QUE QUEREM DAR UMA GARANTIA NA QUAL A PROBABILIDADE DE OS PNEUS SE DESGASTAREM ANTES DA QUILOMETRAGEM
+DA GARANTIA SEJA DE 10%.
+
+      P(Z ≥ 10%)
+      P(Z ≥ 0,5 - 0,1)
+      P(Z ≥ 0,4) << ÀREA - TABELA DIST. NORMAL PADRONIZADA >>
+      P(Z ≥ 1,28)
+
+    Z = X - μ / δ 
+    Z = X - μ / δ = -1,28( ABAIXO DA MÉDIA )
+    Z = (X - 36.500 / 5.000 = -1.28)
+    Z = (X - 36.500 = 5.000 * -1.28)
+    Z = (X - 36.500 = -6.400)
+    Z = (X = -6.400 + 36.500)
+    Z = (X = 30.100 KM)
+
+    30.000 KM É A KILOMETRAGEM NECESSÁRIA PARA TROCAR OS PNEUS COM 10% DOS PNEUS SOB GARANTIA
+/---------------------------------------//------------------------------------------------//-------------------------------------//---------------
+
+    
+    
+    
+      
 
                   
 
