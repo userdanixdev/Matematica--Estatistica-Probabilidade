@@ -41,8 +41,8 @@ FORAM AMOSTRADAS ALEATORIAMENTE 100 DESSAS PEÇAS, OBTENDO-SE MÉDIA DE 500 HORA
 PARA A VERDADEIRA DURAÇÃO MÉDIA DA PEÇA COM UM NÍVEL DE 95% DE CONFIANÇA.
 (suponha que tenhamos uma população de 1000 peças)
 
-  δ :: 5 ::
-  n :: 100  :: tamanho da amostra :: 
+  δ ::  5   :: Desvio Padrão
+  n :: 100  :: Tamanho da amostra :: 
   x :: 500  :: Duração média da amostra :: 
   μ :: ???  :: Verdadeira população média ::
   γ :: 95%  :: Nível de confiança :: 0,95 / 2 = 0,475 <-Tabela.Dist.Normal Padrão <-área-> Z = 1,96 
@@ -67,8 +67,39 @@ PARA A VERDADEIRA DURAÇÃO MÉDIA DA PEÇA COM UM NÍVEL DE 95% DE CONFIANÇA.
                     IC = [ 499,07 ; 500,93 ]
 
 ==================================//========================================//========================//==============
+SUPONHA QUE OS COMPRIMENTOS DE JACARÉS ADULTOS DE UMA CERTA RAÇA SIGA O MODELO NORMAL COM MÉDIA DESCONHECIDA E VARIÂNCIA IGUAL A 0,01 M².
+UMA AMOSTRA DE DEZ ANIMAIS FOI SORTEADA E FORNECEU MÉDIA 1,69 METROS. OBTENHA UMA ESTIMATIVA PARA A MÉDIA
+COM UM COEFICIENTE DE CONFIANÇA DE 98%.
 
-                    
+Variância Populacional:
+    - δ² :: 0,01m²
+Desvio Padrão:
+    - δ :: 0,1 m
+Nível de confiança :
+    - γ :: 98% :: 0,98 (0,98 / 2 = 0,49)<- Valor Tabela.Dist.Normal Padrão <-área-> (γ/2 =2,33)
+Valor Z crítico Tabelado Dist.Normal Padrão :
+    - γ / 2 :: 2,33
+Nível de significância :
+    - α :: 2% :: 0,2 
+Tamanho da Amostra :
+    - n :: 10
+Média da Amostra :
+    - x :: 1,69 metros
+
+IC = X ± Z.δ/√n
+IC = 1,69 ± 2,33.0,1/√10
+IC = 1,69 ± 2,33.0,1/√10
+IC = 1,69 ± 2,33.0,1/3,16
+IC = 1,69 ± 2,33 * 0,0316
+IC = 1,69 ± 2,33 * 0,0316
+IC = 1,69 ± 0,0737
+IC = 1,69 + 0,0737 = 1,7637
+IC = 1,69 - 0,0737 = 1,6163
+IC = [1,616 ; 1,764]
+=====================================//=====================================//=================================//==========================
+
+
+
   
 
 
