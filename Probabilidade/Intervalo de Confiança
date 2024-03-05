@@ -99,7 +99,66 @@ IC = 1,69 - 0,0737 = 1,6163
 IC = [1,616 ; 1,764]
 
 =====================================//=====================================//=================================//==========================
-6
+Deseja-se estimar o número médio de frases em anúncios de revistas de estudo anteriores. 
+Sabe-se que a distribuição é normal com desvio padrão igual a 5 frases. 
+Quantos anúncios de revistas devem ser incluidos na amostra se você quer ter 95% de confiança e não errar mais do que 1 frase
+da média populacional?
+
+  δ :: 5 :: frases --> (DESVIO PADRÃO POPULACIONAL)
+  n :: ? :: Tamanho da Amostra
+  γ :: 0,95 :: Nível de confiança :: 95%
+  α :: 1 :: Nível de significância
+
+  E = Z.δ/√n                       γ/2 = 0,95/2  
+  1 = 1,96.5/√n                    γ/2 = 0,475
+  √n = 1,96.5                      γ/2 = Z(1,96)
+  √n = 9,8  
+  (√n)² = (√9,8)²
+   n = 96,04
+
+  E>1 = 97  ** SERÃO NECESSÁRIOS 97 FRASES DE REVISTAS **
+-----------------------//-------------------------------------//-----------------------------------------//-----------------------------//
+Da experiência passada sabe-se que o desvio padrão das alturas das paredes das casas de determinado conjunto residencial é de 5cm.
+Colhendo amostras de 36 casas observou-se uma altura média de 250cm. Qual o intervalo com 95% de confiança para a média populacional 'μ'?
+
+  δ :: 5 cm
+  n :: 36 casas :: Tamanho das amostras
+  X :: 250 cm ::
+  μ :: ??? :: Média Populacional
+  γ :: 95% :: Nível de Confiança
+
+  P( X - Zγ/2 . (δ/√n) ≤ μ ≤ X + Zγ/2 . (δ/√n))
+  P( 250 - 0,95/2 . (5/√36) ≤ μ ≤ 250 + 0,95/2 . (5/√36))
+  P( 250 - 0,95/2 . (5/√36) ≤ μ ≤ 250 + 0,95/2 . (5/√36))
+  P(250 - 0,475 . (5/6) ≤ μ ≤ 250 + 0,475 . (5/6))
+  P(250 - (1,96) . (0,83) ≤ μ ≤ 250 + (1,96) . (0,83))
+  P(250 - 1,6268) ≤ μ ≤ 250 + 1,6268)
+  P(248,3732 ≤ μ ≤ 251,6268)
+                    IC = [248,37 ; 251,6268]
+
+PARA ESTE MESMO INTERVALO QUAL DEVE SER O TAMANHO DA AMOSTRA PARA QUE O ERRO DA ESTIMATIVA SEJA NO MÁXIMO 2 CM?
+
+      E = Z.δ/√n
+      2 = 1,96.5/√n
+      √n = 1,96.5/2
+      √n = 9,8/2
+      √n = 4,9
+propriedades matemática da raiz
+      (√n)² = (4,9)²
+       n =  24,01
+
+                  TAMANHO DA AMOSTRA DE 24 CASAS PARA UMA ESTIMATIVA DE ERRO DE NO MÁXIMO 2 CM
+
+---------------------------------//--------------------------------------------------//-------------------------------------------//------------------------
+
+
+
+
+
+
+
+  
+ 
 
 
   
