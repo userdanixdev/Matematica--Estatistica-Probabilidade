@@ -151,11 +151,30 @@ propriedades matemática da raiz
 
 ---------------------------------//--------------------------------------------------//-------------------------------------------//------------------------
 
+Pretende-se estimar a proporção de cura através do uso de um certo medicamento em doentes contaminados.
+Um exprimento consistiu em aplicar o medicamento em 200 pacientes, escolhidos ao acaso.
+E observou que 160 deles foram curados. O que podemos dizer da proporção da população em geral para
+um nível de confiança de 95%.
+
+  γ :: 95% :: Nível de Confiança :: 
+  n :: 200 :: amanho da Amostra ::
 
 
+  ῥ = 160/200 = 0,80 = 80%
 
+  IC = ῥ ± Z √ῥ(1-ῥ) / n
+  IC = 0,8 ± 1,96 . √0,8(1-0,8) / 200
+  IC = 0,8 ± 1,96 . √0,8(0,2) / 200
+  IC = 0,8 ± 1,96 . √0,16 / 200
+  IC = 0,8 ± 1,96 . 0,028
+  IC = 0,8 ± 0,055
 
+  IC = 0,8 + 0,055 = 0,855
+  IC = 0,8 - 0,055 = 0,744
 
+  IC = [0,744;0,855]
+  IC = [74,4%;85,5%]
+----------------------------//-----------------------------//-----------------------------//------------------
 
   
  
