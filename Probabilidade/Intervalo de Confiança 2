@@ -1,0 +1,43 @@
+Intervalo de Confiança - ESTIMAÇÃO POR PONTO - 
+
+  A estimativa por ponto consiste em calcular um valor para um parâmetro da população computando-se a característica 
+correspondente da amostra.
+  Por exemplo, temos o salário de 30 gerentes de uma empresa, podemos estimar a média 'μ' da população por meio do cálculo da média
+correspondente para a amostra X.
+  A fórmula da média para a amostra que pode ser usada para estimar a média da população é:
+
+        X = ∑x₁ / n
+
+  A fórmula para o desvio-padrão da amostra que pode ser usada para estimar o desvio-padrão
+da população é:
+
+    s=√∑(x₁ - X)² / n-1
+
+Para a estimativa da população em proporção P temos:
+
+    p= Nº resultado possíveis / Resultados Totais
+
+OBS: SEMPRE QUE A POPULAÇÃO FOR INFINITA OU QUANDO FOR FINITA E O TAMANHO DA AMOSTRA FOR
+          MENOR OU IGUAL A 5% (n/N ≤ 0,05 usa:
+
+                        δ(x) = δ/√n
+Onde:
+          δ(x) = desvio-padrão da distribuição da amostragem da média X
+          δ = desvio-padrão da população
+          n = tamanho da amostra
+          N = Tamanho da população
+
+PARA POPULAÇÃO FINITA MAIOR QUE 0,05 USA:
+
+          δ(x) = √N-n/√N-1. √(δ/√n)
+-----------------------------------------///----------------------//---------------------------------//----------------------------
+
+
+        
+
+
+
+
+    
+
+  
