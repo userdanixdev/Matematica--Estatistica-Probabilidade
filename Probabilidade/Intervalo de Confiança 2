@@ -17,10 +17,11 @@ Para a estimativa da população em proporção P temos:
 
     p= Nº resultado possíveis / Resultados Totais
 
-OBS: SEMPRE QUE A POPULAÇÃO FOR INFINITA OU QUANDO FOR FINITA E O TAMANHO DA AMOSTRA FOR
-          MENOR OU IGUAL A 5% (n/N ≤ 0,05 usa:
+OBS: SEMPRE QUE A POPULAÇÃO FOR INFINITA OU QUANDO FOR FINITA E O TAMANHO DA AMOSTRA 
+                       FOR MENOR OU IGUAL A 5% (n/N ≤ 0,05) usa:
 
-                        δ(x) = δ/√n
+                                    δ(x) = δ/√n
+
 Onde:
           δ(x) = desvio-padrão da distribuição da amostragem da média X
           δ = desvio-padrão da população
@@ -30,13 +31,69 @@ Onde:
 PARA POPULAÇÃO FINITA MAIOR QUE 0,05 USA:
 
           δ(x) = √N-n/√N-1. √(δ/√n)
+
+PARA ERRO PADRÃO USA-SE A FÓRMULA:
+
+      E = δ/√n
+      
 -----------------------------------------///----------------------//---------------------------------//----------------------------
+Exemplo:
+  Uma população tem uma média de 200 pessoas e um desvio-padrão de 50.
+Suponha que uma amostra simples de 100 seja selecionada.
+Qual a probabilidade de a média da amostra estar estar entre ± 5 da população?
 
 
-        
+  μ :: Média Populacional :: 200
+  δ :: Desvio-padrão :: 50
+  α :: Nível de Significância :: ±(5) <- Calculado <-
+  γ :: Nível de Confiança :: 95
+                  
+    α(E) = δ/√n                         
+    α(E) = 50/√100                       
+    α(E) = 50/10
+    α(E) = 5
 
+     Z₁ = μ - α(E) 
+     Z₁ = 200 - 5 
+     Z₁ = 195  
 
+  Z₁ = (Z₁ - μ)/α(E)  
+  Z₁ = (195-200)/5 = -1 ( 0,1587 )<-área tabela
 
+    Z₂ = μ + α(E)
+    Z₂ = 200 + 5
+    Z₂ = 205
+
+  Z₂ = (Z₂ - μ)/α(E) 
+  Z₂ = (205-200)/5
+  Z₂ = 1 <-(0,8413)<- área tabela
+
+P(-1 < Z < 1 ) 
+P(0,8413 - 0,1587)
+P(0,6826) <- 68,26%
+
+Qual a probabilidade de média da amostra estar entre ± 10 da população?
+
+     Z₁ = μ - α(E)                      
+     Z₁ = 200 - 10
+     Z₁ = 190
+
+      Z₂ = μ + α(E)
+      Z₂ = 200 + 10
+      Z₂ = 210
+
+Z₁ = (Z₁ - μ)/α(E)  
+Z₁ = (190-200)/5 = -2 ( 0,0228 )<-área tabela
+
+  Z₂ = (Z₂ - μ)/α(E) 
+  Z₂ = (210-200)/5
+  Z₂ = 2  (0,9772)<- área tabela
+
+P(-2 < Z <  ) 
+P (0,9772 - 0,0228)
+P(0,9544)
+P = 95,44 %
+--------------/----------------------------------//-------------------------------------/------------------------
 
     
 
