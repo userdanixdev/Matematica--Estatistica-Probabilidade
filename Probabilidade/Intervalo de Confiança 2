@@ -94,10 +94,39 @@ P (0,9772 - 0,0228)
 P(0,9544)
 P = 95,44 %
 --------------/----------------------------------//-------------------------------------/------------------------
-Pretende-se estimar a proporção de cura através do uso de um certo medicamento em doentes contaminados.
-Um exprimento consistiu em aplicar o medicamento em 200 pacientes, escolhidos ao acaso.
-E observou que 160 deles foram curados. O que podemos dizer da proporção da população em geral para
-um nível de confiança de 95%.
+EM UM ESFORÇO PARA ESTIMAR A MÉDIA DE GASTOS POR CLIENTE EM UM RESTAURANTE DO RIO DE JANEIRO, DADOS FORAM COLETADOS PARA UMA AMOSTRA DE 49 CLIENTES.
+ASSUMA QUE O DESVIO PADRÃO SEJA $ 5.
+A) QUAL A MARGEM DE ERRO PARA UM INTERVALO DE CONFIANÇA DE 95%?
+
+    γ :: Nível de confiança :: 95%
+    n :: Tamanho da Amostra :: 49 clientes
+    δ :: Desvio Padrão :: 5
+    δ(n) :: Média de distribuição da amostra :: 0,714
+
+    Cálculo para margem de erro:
+      - X = Z * δ / √n
+      - E = (γ/2) * δ / √n
+      - E = (0,95/2) * δ / √n                              MARGEM DE ERRO DE 1,4
+      - E = (0,475) * δ / √n
+      - E = (1,96) * 5 / √49
+      - E = (1,96) * 5 / 7
+      - E = (1,96) * 0,714
+      - E = 1,39944 ~ 1,4
+
+B) SE A MÉDIA DA AMOSTRA FOR $ 24,80. QUAL O INTERVALO DE CONFIANÇA A 95% PARA A MÉDIA DA POPULAÇÃO?
+
+      IC = μ ± E
+      IC = 24,80 ± 1,4
+      IC = [23,4 < μ < 26,2/
+      IC = [23,4 ; 26,2]
+---------------------------------//-------------------------------------//--------------------------------------//--------------------------
+
+      
+      
+      
+
+
+
 
 
   
