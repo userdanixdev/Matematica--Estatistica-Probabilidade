@@ -48,6 +48,47 @@ de adultos que acham que os adolescentes são os motoristas mais perigosos.
                                 OS ADOLESCENTES SÃO OS MOTORISTAS MAIS PERIGOSOS.
 
 ----------------------------//----------------------------------//----------------------------//---------------------
+VOCÊ ESTÁ ANALISANDO UMA CAMPANHA POLÍTICA E QUER ESTIMAR, COM 95% DE CONFIANÇA A PROPORÇÃO DOS ELEITORES
+QUE IRÃO VOTAR EM UM DETERMINADO CONDIDATO. SUA ESTIMATIVA DEVE TER UMA MARGEM DE ERRO DE 3%
+DA POPULAÇÃO REAL. ENCONTRE O NÚMERO MÍNIMO DE AMOSTRA NECESSÁRIA SE:
 
+  A) NÃO HÁ NENHUMA ESTIMATIVA PRÉVIA;
+
+        γ :: 95% :: Nível de Confiança :: 0,95/2 :: 0,475 :: (Z = 1,96)
+        α :: 3% :: Nível de Significância :: 0,03
+
+        e = Z.√1/4n
+        0,03 = 1,96.√1/4n
+        0,03/1,96 = √1/4n
+        0,0153 = √1/4n
+        (0,0153)² = (√1/4n)² <-- Propriedade matemática <---
+        0,00023409 = 1/4n <--- Propriedades matemáticas <---
+        0,00093636n = 1
+        n = 1/0,00093636
+        n = 1.067,9653124866504335939168695801
+        n =~ 1.068 eleitores ( pessoas )
+
+O tamanho da amostra 1.068 eleitores 
+
+    B) Não há estimativa prévia da proporção igual a 0,31;
+            ῥ = 0,31
+            E = Z √ῥ(1-ῥ) / n
+            0,03 = 1,96.√0,31(1-0,31) / n
+            0,03 = 1,96.√0,31(0,69) / √n
+            0,03√n = 1,96.√0,31(0,69)
+            0,03√n = 1,96.√0,2139
+            0,03√n = 1,96.0,4624
+            0,03√n = 1,96.0,4624
+            0,03√n = 0,9064867
+                √n = 0,9064867/0,03
+                √n = 30,2162
+                (√n)² = (30,2162)²  <--- Propriedades Matemáticas <---
+                  n = 913,02
+
+                      Número de eleitores são de 914
+
+-------------------------//-----------------------------//----------------------------------//--------------
+
+        
 
   
