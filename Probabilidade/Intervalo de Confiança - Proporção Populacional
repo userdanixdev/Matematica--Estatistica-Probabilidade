@@ -22,3 +22,32 @@ um nível de confiança de 95%.
   IC = [0,744;0,855]
   IC = [74,4%;85,5%]
 ----------------------------//-----------------------------//-----------------------------//------------------
+Uma pesquisa feita entre 900 norte-americanos adultos realizada disseram que os motoristas mais perigosos são:
+Adolescentes (63%), pessoas acima de 75 anos (33%). Construa um intervalo de confiança para a população
+de adultos que acham que os adolescentes são os motoristas mais perigosos.
+
+      γ :: Nível de confiança :: 99%
+      n :: Tamanho da amostra :: 900
+      ῥ :: Proporção Categoria :: 63%
+
+    IC = ῥ ± Z √ῥ(1-ῥ) / n
+    IC = ῥ ± (0,495) √ῥ(1-ῥ) / n
+    IC = 0,63 ± 2,575 √0,63(1-0,63) / 900
+    IC = 0,63 ± 2,575.√0,63(0,37) / 900
+    IC = 0,63 ± 2,575.√0,2331 / 900
+    IC = 0,63 ± 2,575.√0,000259
+    IC = 0,63 ± 2,575.0,0160  
+    IC = 0,63 ± 0,0412
+    IC = 0,63 + 0,0412 = 0,6712
+    IC = 0,63 - 0,0412 = 0,5888
+
+          IC = [0,589 ; 0,6712]
+          IC = [58,8% ; 67,12%]
+
+              A PROPORÇÃO DA POPULAÇÃO COM 99% DE PROBABILIDADE CONTÉM A VERDADEIRA A AFIRMAÇÃO DE QUE
+                                OS ADOLESCENTES SÃO OS MOTORISTAS MAIS PERIGOSOS
+
+----------------------------//----------------------------------//----------------------------//---------------------
+
+
+  
