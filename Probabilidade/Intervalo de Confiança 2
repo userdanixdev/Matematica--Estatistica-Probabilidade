@@ -140,6 +140,28 @@ A) QUAL A ESTIMATIVA DA MÉDIA DA POPULAÇÃO PARA O TEMPO GASTO EM DRIVE THROUG
                                                                     μ(n) =  114/30
                                                                     μ(n) = 3,8 minutos
 
+
+
+B) QUAL A MARGEM DE ERRO PARA INTERVALO DE CONFIANÇA DE 90%?
+
+      E = Z. δ/n
+      E = (γ/2).δ/n
+      E = (0,45).δ/n                          (δ) : δ(n)=δ/√n
+      E = (0,45).δ/n                          (δ) : 3,8 = δ/√30
+      E = (1,64).20,81/30                     (δ) : 3,8 = δ/5,47
+      E = (1,64).0,693                        (δ) : δ = 3,8*5,47
+      E = 1,1376                              (δ) : δ = 20,81
+                                                
+
+C) QUAL INTERVALO DE CONFIANÇA A 90%?
+      IC = μ ± e
+      IC = [3,8 ± 1,1376]
+      IC = [3,8 + 1,1376 = 4,93]
+      IC = [3,8 - 1,1376 = 2,66]
+      IC = [2,66 ; 4,93]
+      
+      
+      
       
       
       
