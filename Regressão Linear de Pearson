@@ -1,0 +1,11 @@
+Regressão Linear :
+  - O objetivo principal da análise de regressão é desenvolver uma equação que descreva o comportamento entre uma variável
+dependente e uma ou mais variáveis independentes.
+  - O caso mais simples é quando coletamos dados para apenas uma variável 'x' e queremos estimar 'y' usando uma relação linear direta.
+
+      β₀ =  intercepção da linha de regressão no eixo y
+      β₁ =  O ângulo da linha de regressão
+      y  =  Valor esperado ou média de y para um dado de x. É variável DEPENDENTE.
+      x  =  Variável independente
+
+                    y = β₀ + β₁x
