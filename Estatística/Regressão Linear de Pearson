@@ -110,7 +110,64 @@ da inclinação da reta. (E)
 
 ---------------------------//--------------------------------------------//--------------------------------------//----------------------------------/
 
+(UFRGS)
+    A análise de correlação permite estudar a relação entre dois conjuntos de valores e quantificar o quanto um está relacionado com o outro,
+no sentido de determinar a intensidade e a direção dessa relação. Isto é, essa análise indica se, e com que intensidade, os valores de uma variável
+aumentam ou diminuem enquantos os valores da outra variável aumentam ou diminuem. [CORRETO]
 
+(INSTITUTO AOCP)
+    - Considere as variáveis aleatórias X : nota da disciplina de Estatística e Y para aas notas da disciplina de matemática.
+Essas variáveis foram observadas em 5 alunos, ao final do semestre. Os dados apresentados abaixo:
+
+      X : 4,0 | 5,0 | 6,0 | 7,0 | 8,0 |
+      y : 3,0 | 4,0 | 8,0 | 8,0 | 10  |
+
+Calcule o coeficiente de correlação de Pearson:
+
+    r = Cov(x.y)  <- Covariância de X & y
+    r = Cov(x.y)-μ(x).μ(y) / s(x).s(y) < 'S' como desvio-padrão
+
+    Cov(x,y) = E(xy) - E(x).E(y) <-- 'E' como valores esperados, as médias das variáveis.
+
+    E(x) = Média de X : Soma valores de 'X' dividido por total dos valores da variáveis
+    E(x) = 4+5+6+7+8 / 5 = 6 μ
+    E(y) = 3+4+7+8+10 / 5 = 6,4
+    
+    E(x.y) = 3.4=12 + 5.4 = 20 6.7 = 42, 7.8=56, 8.10=80 /  5
+    E(x.y) = 12 + 20 + 42 + 56 + 80 / 5 
+    E(x.y) = 210 / 5 
+    E(x.y) = 42
+
+    Variância(x) = (μ - x)²/total
+    Variância(x) = (6-4)² + (6-5)² + (6-6)¹ + (6-7)² + (6-8)² / 5
+    Variância(x) = 2² + 1² + 0¹ + (-1)² + (-2)² / 5
+    Variância(x) = 4 + 1 + 0 + 1 + 4 / 5
+    Variância(x) = 10 / 5 
+    Variância(x) = 2
+
+    Variância(y) = (μ - y)²/total
+    Variância(y) = (6,4-3)² + (6,4-4)² + (6,4-8)² + (6,4-8)² + (6,4-10)² / 5
+    Variância(y) = (3,4)² + (2,4)² + (-1,6)² + (-1,6)² + 3,6² / 5 
+    Variância(y) = 11,56 + 5,76 + 2,56 + 2,56 + 12,96 / 5
+    Variância(y) = 35,4 / 5
+    Variância(y) = 7,08
+
+    S(x) = √2 = 1,41  <--- Desvio Padrão
+    S(y) = √7,08 = 2,66 < ----- Desvio Padrão
+
+
+    r = Cov(x.y)-μ(x).μ(y) / s(x).s(y)
+    r = 42 - 6 * 6,4 / 1,41 * 2,66
+    r = 42 - 38,4 / 3,7506
+    r = 3,6 / 3,7506
+    r = 0,95
+
+
+
+
+  
+
+  
 
 
               
