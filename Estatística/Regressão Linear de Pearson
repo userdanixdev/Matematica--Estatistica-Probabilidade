@@ -22,6 +22,32 @@ o COEFICIENTE DE CORRELAÇÃO DE PEARSON, o qual é obtido dividindo a covariân
 CORRELAÇÃO:
     - A correlação entre duas variáveis dar-se-á quando uma delas está está relacionada a outra. Ou quando a alteração no valor de uma variável ( independente )
 provoca alterações no valor da outra variável ( dependente ).
+    CORRELAÇÃO PERFEITA NEGATIVA :
+              (r(xy) = -1)
+      - Quando os pontos estiverem perfeitamente alinhados, mas em sentido contrário, a correlação é denominada perfeita negativa.
+    CORRELAÇÃO NEGATIVA:
+              (-1 < r(xy) < 0)
+      - A correlação é considerada negativa quando valores crescentes da variável X estiverem associados a valores decrescentes da variável Y
+Ou valores descrescentes de X associados a valores crescentes de Y.
+    CORRELAÇÃO NULA:
+      - (r(xy) = 0 ) - 
+      - Quando não houver relação entre as variáveis X e Y.  Obs: Na regressão linear simples
+
+    CORRELAÇÃO POSITIVA: 
+          ( 0 < R(xy) < 1 ):
+      - Será considerada positiva se os valores crescentes de X estiverem associados a valores crescentes de Y.
+    CORRELAÇÃO PERFEITA POSITIVA 
+              (R(xy) = 1):
+      - A correlação linear perfeita positiva corresponde ao caso anterior, porém, os pontos X e Y estão perfeitamente alinhados.
+
+                                                                  IMPORTANTE!
+
+              O COEFICIENTE DE CORRELAÇÃO NÃO SERÁ AFETADO COM SOMA, SUBTRAÇÃO, MULTIPLICAÇÃO E DIVISÃO EM CONSTANTE POSITIVAS, PORÉM 
+                                          EM CONSTANTES NEGATIVAS TEREMOS A INVERSÃO DO SINAL.
+
+                                                              ( -1 ≤ R ≤ 1 )
+     
+  
 
 DIAGRAMA DE DISPERSÃO:
     - Um diagrama de dispersão mostra a relação entre duas variáveis QUANTITATIVAS, medidas.
@@ -31,6 +57,78 @@ IMPORTANTE:
     - Eixo das ORDENADAS : ( Y ) :: IMAGEM
             - Variável que pode mudar de forma DEPENDENTE de acordo com a mudança da variável INDEPENDENTE.
 --------------------------//-----------------------------------------//----------------------------------//--------------------------------//------------------------------//---
+2010 - CESPE :
+               O COEFICIENTE DE CORRELAÇÃO LINEAR DE PEARSON QUE MEDE O GRAU DE CORRELAÇÃO LINEAR ENTRE DUAS VARIÁVEIS
+É ALTERADO QUANDO TODOS OS VALORES DE UMA DAS DUAS VARIÁVEIS SÃO MULTIPLICADOS OU DIVIDIDOS POR UMA CONSTANTE DIFERENTE DE ZERO.
+                        { ERRADO }[PODE SER ALTERADO O SINAL, POSITIVO DIFERENTE DE ZERO OU NEGATIVA(INVERTE SINAL]
+
+--------------------;;-----------------------------//-------------------------------------//--------------------------------------//--------------------
+(CESGRANRIO)
+    O coeficiente de Correlação Linear de Pearson é necessariamente um número no intervalo (-1,1)
+            PORQUE O coeficiente de Correlação Linear de Pearson só pode ser calculado para variáveis quantitativas
+( As duas afirmações são verdadeiras mas a segunda não justifica a primeira ) ( Uma não justifica a outra ) ( São definições diferentes )
+
+(CESGRANRIO)
+    I - Se r = 1, as observações independentes aumenta quando a variável dependente aumenta. (C)
+   II - Se r > 0, a variável independente decresce quando a variável dependente decresce. (C)
+   III- Se r < 0, a variável independente decresce quando a variável dependente decresce. (E) [Nessse caso, a variável INDEPENDENTE CRESCE
+enquanto a dependente DECRESCE no caso de r < 0].
+   IV - Se r = 0, não existe relação entre as duas variáveis. (A relação é nula, certo. Mas existem outros tipos de relações quando o r = 0.
+
+                                                      (I e II corretas)
+(CESPE)
+  O coeficiente de correlação de Pearson é usado para medir o grau de linearidade ( associação ) entre duas variáveis ( eventos ),
+podendo assumir qualquer valor entre +1 e -1.
+Os valores de coeficientes iguais a +1 e -1 indicam, respectivamente, relação linear perfeita e ausência total de relação linear entre as variáveis.
+[ERRADO][O R = -1 CONTINUA TENDO UMA RELAÇÃO PERFEITA. A AUSÊNCIA TOTAL É NO CASO DE R = 0 ]
+
+(CESPE)
+  A respeito do modelo de regressão linear simples:
+    a) O parâmetro de inclinação da reta é igual à tangente do ângulo formado entre a reta e o eixo Y. ( E )
+            
+            y = ax + b]  a :: Coeficiente Angular ; b :: Coeficiente Linear
+            a =  tangente(α) = CO/CA = Cateto Oposto/Cateto Adjacente
+            a =  tg(α) = y/x
+
+          [O parâmetro de inclinação é ( a ):  é igual à tangente do ângulo formado entre a reta e o eixo X.]
+
+    b) A inclinação da reta é proporcional à correlação entre a variável resposta e a variável preditora. (C)
+              
+                [Variável resposta = x ; Variável preditora = y]
+        
+                [a = coeficiente angular = tg = y/x]
+
+    c) Se o modelo linear estiver bem ajustado, a correlação entre o resíduo do modelo e a variável resposta deve estar próximo de -1.(E)
+            [Não somente de -1 também como +1 ( -1 ≤ R ≤ 1) ]
+
+    d) Se o intercepto do modelo for nulo, a variável resposta assume o valor zero quando a variável preditora for igual ao inverso
+da inclinação da reta. (E)
+            [Y = Ax + B]
+            {y = x/y + b}
+
+    Intercepto = Coeficiente Angular = A = 0 , a variável Y assume uma constante(A) e não zero. B não pode ser ZERO ( Coef. Linear)
+
+---------------------------//--------------------------------------------//--------------------------------------//----------------------------------/
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       
