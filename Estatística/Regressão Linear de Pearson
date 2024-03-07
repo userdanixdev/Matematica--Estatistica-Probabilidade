@@ -9,3 +9,30 @@ dependente e uma ou mais variáveis independentes.
       x  =  Variável independente
 
                     y = β₀ + β₁x
+
+Conceitos:
+    - Uma vez caracterizada esta relação, descreve-se através de uma função matemática.
+    - A estimação dos parâmetros dessa função é o objetivo da REGRESSÃO. Os pares do calores das duas variáveis poderão ser colocados num diagrama cartesiano
+chamado de 'diagrama de dispersão'.
+    - A correlação entre os valores é também conhecida como COEFICIENTE DE CORRELAÇÃO indicando sua força e direção do
+relacionamento linear entre duas variáveis aleatórias.
+    - Vários são os coeficientes utilizados para situações diferentes. O mais conhecido é
+o COEFICIENTE DE CORRELAÇÃO DE PEARSON, o qual é obtido dividindo a covariância de duas variáveis pelo produto de seus desvios padrão.
+
+CORRELAÇÃO:
+    - A correlação entre duas variáveis dar-se-á quando uma delas está está relacionada a outra. Ou quando a alteração no valor de uma variável ( independente )
+provoca alterações no valor da outra variável ( dependente ).
+
+DIAGRAMA DE DISPERSÃO:
+    - Um diagrama de dispersão mostra a relação entre duas variáveis QUANTITATIVAS, medidas.
+IMPORTANTE:
+    - Eixo das ABCISSAS: (X) :: Domínio
+            - Variável que é alterada por uma modificação no processo (variável independente)
+    - Eixo das ORDENADAS : ( Y ) :: IMAGEM
+            - Variável que pode mudar de forma DEPENDENTE de acordo com a mudança da variável INDEPENDENTE.
+
+      
+
+
+
+
