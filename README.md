@@ -23,7 +23,8 @@ _Conceitos e exemplos aplicados de Estatística e Probabilidade_:
   #
 * Intervalo de Confiança
   #
-    
+* Correlação e Regressão Linear
+  #    
 
 
   
