@@ -162,7 +162,17 @@ Calcule o coeficiente de correlação de Pearson:
     r = 3,6 / 3,7506
     r = 0,95984642457206846904495280755079
 
-
+------------------------//------------------------------//--------------------------------///---------------------------//-------------
+Ano: 2018 Banca: CESPE Órgão: Polícia Federal Prova: Papiloscopista Policial Federal
+    O intervalo de tempo entre a morte de uma vítima até que ela seja encontrada (y em horas) denomina-se intervalo 'post mortem'. 
+Um grupo de pesquisadores mostrou que esse tempo se relaciona com a concentração molar de potássio encontrada na vítima (X em mmol/dm3).
+Esses pesquisadores consideraram um modelo de regressão linear simples na forma y=Ax + B + E, em que a representa o coeficiente angular,
+b denomina-se intercepto e E denota um erro aleatório que segue distribuição norma com média zero e desvio padrão igual a 4.
+    As estimativas dos coeficientes a e b obtidas pelo método dos mínimos quadrados ordinários foram, respectivamente, iguais a 2,5 e 10.
+O tamanho da amostra para a obtenção desses resultados foi n = 101. A média amostral e o desvio padrão amostral da variável x foram, 
+respectivamente, iguais a 9 mmol/dm3 e 1,6 mmol/dm3 e o desvio padrão da variável y foi igual a 5 horas.
+De acordo com o modelo ajustado, caso a concentração moalar de potássio encontrada em um vítima seja igual a 2 mmol/dm3, o valor predito 
+correspondente do intervalo post mortem será igual a 15 horas.
 
 
 
