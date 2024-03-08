@@ -171,8 +171,63 @@ b denomina-se intercepto e E denota um erro aleatório que segue distribuição 
     As estimativas dos coeficientes a e b obtidas pelo método dos mínimos quadrados ordinários foram, respectivamente, iguais a 2,5 e 10.
 O tamanho da amostra para a obtenção desses resultados foi n = 101. A média amostral e o desvio padrão amostral da variável x foram, 
 respectivamente, iguais a 9 mmol/dm3 e 1,6 mmol/dm3 e o desvio padrão da variável y foi igual a 5 horas.
+
 De acordo com o modelo ajustado, caso a concentração moalar de potássio encontrada em um vítima seja igual a 2 mmol/dm3, o valor predito 
 correspondente do intervalo post mortem será igual a 15 horas.
+
+y = Ax + B + E
+y = 2.5x + 10 + E ( erro - MMQ ) <-- Cada ponto é um erro, colocando a reta entre esses pontos. O a é o coeficiente da inclinação e o 
+                                     eixo das ordenadas, pegando as distância e as minimizando-as para aproximar de zero. 
+                                      O MMQ ajusta a reta entre os pontos de tal maneira que o erro tende a 0. 
+                                      No caso na situação hipotética,é só uma constante para confundir o candidato.
+
+y = 2,4*2+10
+y = 5 + 10
+y = 15 horas
+
+Quando o perito da policia chega no local do crime, ele calcula a concentração de potassio na vítima e certifica que tem 2 mmmol/dm3
+da para saber quantas horas esteve no local e a hora da morte.
+
+A média amostral da variável resposta Y foi superior a 30 horas?
+
+    y está em função de X então :
+    y = 2,5.9 + 10
+    y = 22,5 + 10 
+    y = 32,5 horas
+
+E o coeficiente de determinação ou explicação (R2) nos mostra em valores numéricos a precisão dos dados e funções utilizadas no processo.
+            EXPRESSA A QUANTIDADE DE VARIAÇÃO DOS DADOS QUE É EXPLICADA PELO MODELO LINEAR.
+                          QUANTO MAIS PROXIMO DO 1 MELHOR ELE SE AJUSTA NA AMOSTRA.
+                                                   R = (r)² = 0 ≤ r2 ≤ 1 
+
+              SERÁ QUE A FUNÇÃO LINEAR SIMPLES DE REGRESSÃO ( Y = 2,5X + 10) EXPLICA BEM O RESULTADO OBTIDO?
+                                                   R = (r)² = 0 ≤ r2 ≤ 1
+
+                                R = Covariância(x.y) / Sx.Sy
+                                Sy = 5 
+                                Sx = 1,6
+
+Sx = 1,6 -- Sx²=(1,6)² = 2,56 
+                                
+
+Coeficiente Angular = Cov(x.y)/Varianca(x)
+2,5 = Cov(x.y)/2,56
+2,5 * 2,56 = Cov(x.y)
+6,4 = Cov(x.y)
+
+R = Covariância(x.y) / Sx.Sy
+R = 6,4 / 5 * 1,6
+R = 6,4 / 8
+R = 0,8
+R = 0,64
+
+                Mesmo utilizando o MMQ, regressão linear e com as variáveis quantitativas ainda teremos uma acurária de 0,64.
+                      Sendo assim, além desses dados, outras variáveis podem servir para ajudar na precisão dos dados.
+
+                                
+                          
+
+
 
 
 
